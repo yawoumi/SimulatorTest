@@ -17,6 +17,7 @@ class DiscreteActionTest {
 	void setUp() throws Exception {
 	}
 
+	//Test DA1(
 	@Test
 	void testSpendTime() {
 		Clock clock = Clock.getInstance();
@@ -26,7 +27,8 @@ class DiscreteActionTest {
 		Integer integer =3;
 		assertEquals(integer,discreteA.getCurrentLapsTime());
 	}
-
+	
+	//Test DA2
 	@Test
 	void testCompareTo() {
 		Clock clock1 = Clock.getInstance();
@@ -37,6 +39,7 @@ class DiscreteActionTest {
 	assertEquals(1,discreteA1.compareTo(discreteA2));
 	}
 
+	//Test DA3
 	@Test
 	void testNext() {
 		Clock clock = Clock.getInstance();
@@ -45,16 +48,18 @@ class DiscreteActionTest {
 	assertEquals(discreteA,discreteA.next());
 	}
 
+	
 	@Test
 	void testHasNext() {
 		Clock clock = Clock.getInstance();
 	OneShotTimer oneST = new OneShotTimer(5);
 	DiscreteAction discreteA = new DiscreteAction(clock,"test avec getInstance",oneST);
-	assertTrue(discreteA.hasNext());
+	assertTrue(discreteA.hasNext()); //Test DA4
 	oneST.next();
-    assertFalse(discreteA.hasNext());
+    assertFalse(discreteA.hasNext()); //Test DA5
 	}
 	
+	//Test DA6
 	@Test
 	void testToString() {
 		Clock clock = Clock.getInstance();
@@ -66,6 +71,7 @@ class DiscreteActionTest {
     		+ " Delai: "+ discreteA.getCurrentLapsTime(),discreteA.toString());
 	}
 	
+	//Test DA7
 	@Test
 	void testGetCurrentLapsTime() {
 		Clock clock = Clock.getInstance();
@@ -74,6 +80,7 @@ class DiscreteActionTest {
         assertEquals(null,discreteA.getCurrentLapsTime());
 	}
 	
+	//Test DA8
 	@Test
 	void testGetObject() {
 		Clock clock = Clock.getInstance();
