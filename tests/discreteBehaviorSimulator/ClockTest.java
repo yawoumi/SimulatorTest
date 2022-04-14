@@ -89,19 +89,7 @@ class ClockTest {
 
 	@Test
 	void testGetTime() {
-		MyObserver mo1 = new MyObserver();
-		c1.addObserver(mo1);
-		c1.setVirtual(true);
-		
-		try {
-			c1.increase(5);
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		assertEquals(5,c1.getTime());
-
-		//
+		assertEquals(0,c1.getTime());
 	}
 
 	@Test
@@ -114,12 +102,12 @@ class ClockTest {
 		boolean access = false;
 		
 		if (access==false) {
-			// On veut vérifier que c2 ne peut pas lire
+			// On veut vÃ©rifier que c2 ne peut pas lire
 			c2.lockReadAccess();
-			// On passe access à true si il a pu lire
+			// On passe access Ã  true si il a pu lire
 			access = true;
 		}
-		// On vérifie que acess n'est jamais passé à true
+		// On vÃ©rifie que acess n'est jamais passÃ© Ã  true
 		assertEquals(false,access);
 		
 	}
@@ -136,12 +124,12 @@ class ClockTest {
 		boolean access = true;
 		
 		if (access) {
-			// On veut vérifier que c2 peut lire
+			// On veut vÃ©rifier que c2 peut lire
 			c2.lockReadAccess();
-			// On passe access à true si il a pu lire
+			// On passe access Ã  true si il a pu lire
 			access = false;
 		}
-		// On vérifie que acess est bien passé false
+		// On vÃ©rifie que acess est bien passÃ© false
 		assertEquals(false,access);
 	}
 
@@ -155,12 +143,12 @@ class ClockTest {
 		boolean access = false;
 		
 		if (access==false) {
-			// On veut vérifier que c2 ne peut pas écrire
+			// On veut vÃ©rifier que c2 ne peut pas Ã©crire
 			c2.lockWriteAccess();
-			// On passe access à true si il a pu écrire
+			// On passe access Ã  true si il a pu Ã©crire
 			access = true;
 		}
-		// On vérifie que acess n'est jamais passé à true
+		// On vÃ©rifie que acess n'est jamais passÃ© Ã  true
 		assertEquals(false,access);
 	}
 
@@ -176,12 +164,12 @@ class ClockTest {
 		boolean access = true;
 		
 		if (access) {
-			// On veut vérifier que c2 peut écrire
+			// On veut vÃ©rifier que c2 peut Ã©crire
 			c2.lockWriteAccess();
-			// On passe access à true si il a pu écrire
+			// On passe access Ã  true si il a pu Ã©crire
 			access = false;
 		}
-		// On vérifie que acess est bien passé false
+		// On vÃ©rifie que acess est bien passÃ© false
 		assertEquals(false,access);
 	}
 
