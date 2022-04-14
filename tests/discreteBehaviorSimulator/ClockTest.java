@@ -89,7 +89,10 @@ class ClockTest {
 
 	@Test
 	void testGetTime() {
+		c1.setVirtual(true);
 		assertEquals(0,c1.getTime());
+		c1.setVirtual(false);
+		assertEquals(new Date().getTime(), c1.getTime());
 	}
 
 	@Test
