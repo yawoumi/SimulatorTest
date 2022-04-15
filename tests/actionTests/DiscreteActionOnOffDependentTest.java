@@ -18,6 +18,7 @@ class DiscreteActionOnOffDependentTest {
 	void setUp() throws Exception {
 	}
 
+	// Test DAOD1
 	@Test
 	void testNextAction() throws NoSuchMethodException, SecurityException {
 		Clock clock = Clock.getInstance();
@@ -30,18 +31,19 @@ class DiscreteActionOnOffDependentTest {
 	assertEquals(clock.getClass().getDeclaredMethod("test avec getTime", new Class<?>[0]),discreteA_OnOff.getMethod());
 	}
 
+	// Test DAOD2
 	@Test
 	void testSpendTime() {
 		Clock clock = Clock.getInstance();
 	OneShotTimer oneST_ON = new OneShotTimer(1);
 	OneShotTimer oneST_OFF = new OneShotTimer(5);
 	DiscreteActionOnOffDependent discreteA_OnOff = new DiscreteActionOnOffDependent(clock,"test avec getInstance",oneST_ON,"test getTime",oneST_OFF);
-	discreteA_OnOff.spendTime(5);
+	discreteA_OnOff.spendTime(10);
 	Integer integer = 10;
 	assertEquals(integer,discreteA_OnOff.getCurrentLapsTime());
 	}
 
-
+	// Test DAOD3
 	@Test
 	void testCompareTo() {
 		Clock clock1 = Clock.getInstance();
@@ -55,6 +57,7 @@ class DiscreteActionOnOffDependentTest {
 	assertEquals(1,discreteA_OnOff1.compareTo(discreteA_OnOff2));
 	}
 
+	// Test DAOD4
 	@Test
 	void testNext() throws NoSuchMethodException, SecurityException {
 		Clock clock = Clock.getInstance();
@@ -71,11 +74,11 @@ class DiscreteActionOnOffDependentTest {
 		OneShotTimer oneST_ON = new OneShotTimer(1);
 		OneShotTimer oneST_OFF = new OneShotTimer(5);
 		DiscreteActionOnOffDependent discreteA_OnOff = new DiscreteActionOnOffDependent(clock,"test avec getInstance",oneST_ON,"test avecgetTime",oneST_OFF);
-		assertTrue(discreteA_OnOff.hasNext());
+		assertTrue(discreteA_OnOff.hasNext()); // Test DAOD5
 		oneST_ON.next();
-		assertTrue(discreteA_OnOff.hasNext());
+		assertTrue(discreteA_OnOff.hasNext()); // Test DAOD6
 		oneST_OFF.next();
-		assertFalse(discreteA_OnOff.hasNext());
+		assertFalse(discreteA_OnOff.hasNext()); // Test DAOD7
 	}
 
 }

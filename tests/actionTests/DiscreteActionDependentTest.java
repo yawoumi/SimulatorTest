@@ -16,16 +16,18 @@ class DiscreteActionDependentTest {
 	void setUp() throws Exception {
 	}
 
+	// Test DAD1
 	@Test
 	void testAddDependence() {
 		Clock clock = Clock.getInstance();
 	OneShotTimer oneST1 = new OneShotTimer(5);
-	DiscreteActionDependent discreteAD = new DiscreteActionDependent(clock,"test avec getInstance",oneST1);
 	OneShotTimer oneST2 = new OneShotTimer(10);
+	DiscreteActionDependent discreteAD = new DiscreteActionDependent(clock,"test avec getInstance",oneST1);
 	discreteAD.addDependence(clock,"getTime",oneST2);
 	assertTrue(discreteAD.hasNext());
 	}
 
+	// Test DAD2
 	@Test
 	void testNextMethod() throws NoSuchMethodException, SecurityException{
 		Clock clock = Clock.getInstance();
@@ -41,6 +43,7 @@ class DiscreteActionDependentTest {
     assertEquals(clock.getClass().getDeclaredMethod("test avec getInstance", new Class<?>[0]),discreteAD.getMethod());
 	}
 
+	// Test DAD3
 	@Test
 	void testSpendTime() {
 		Clock clock = Clock.getInstance();
@@ -52,6 +55,7 @@ class DiscreteActionDependentTest {
 	assertEquals(integer,discreteAD.getCurrentLapsTime());
 	}
 
+	// Test DAD4
 	@Test
 	void testUpdateTimeLaps() throws NoSuchMethodException, SecurityException {
 		Clock clock = Clock.getInstance();
@@ -62,13 +66,14 @@ class DiscreteActionDependentTest {
         assertEquals(clock.getClass().getDeclaredMethod("toString", new Class<?>[0]),discreteAD.getMethod());
 	}
 
+	// Test DAD5
 	@Test
 	void testCompareTo() {
 		Clock clock1 = Clock.getInstance();
 		Clock clock2 = Clock.getInstance();
         OneShotTimer oneST = new OneShotTimer(5);
-        DiscreteActionDependent discreteAD1 = new DiscreteActionDependent(clock1,"getInstance",oneST);
-        DiscreteActionDependent discreteAD2 = new DiscreteActionDependent(clock2,"getInstance",oneST);
+        DiscreteActionDependent discreteAD1 = new DiscreteActionDependent(clock1,"test avec getInstance",oneST);
+        DiscreteActionDependent discreteAD2 = new DiscreteActionDependent(clock2,"test avec getInstance",oneST);
         assertEquals(1,discreteAD1.compareTo(discreteAD2));
         
 	}
@@ -77,17 +82,18 @@ class DiscreteActionDependentTest {
 	void testIsEmpty() {
 		Clock clock = Clock.getInstance();
         OneShotTimer oneST1 = new OneShotTimer(5);
-        DiscreteActionDependent discreteAD = new DiscreteActionDependent(clock,"getInstance",oneST1);
-        assertFalse(discreteAD.isEmpty());
+        DiscreteActionDependent discreteAD = new DiscreteActionDependent(clock,"test avec getInstance",oneST1);
+        assertFalse(discreteAD.isEmpty()); // Test DAD6
         oneST1.next();
-        assertTrue(discreteAD.isEmpty()); 
+        assertTrue(discreteAD.isEmpty()); // Test DAD7
 	}
 
+	// Test DAD8
 	@Test
 	void testNext() {
 		Clock clock = Clock.getInstance();
         OneShotTimer oneST = new OneShotTimer(5);
-        DiscreteActionDependent discreteAD = new DiscreteActionDependent(clock,"getInstance",oneST);
+        DiscreteActionDependent discreteAD = new DiscreteActionDependent(clock,"test avec getInstance",oneST);
         DiscreteActionInterface result = discreteAD.next();
         assertEquals(discreteAD,result);
 	}
@@ -96,12 +102,10 @@ class DiscreteActionDependentTest {
 	void testHasNext() {
 		Clock clock = Clock.getInstance();
         OneShotTimer oneST = new OneShotTimer(5);
-        DiscreteActionDependent discreteAD = new DiscreteActionDependent(clock,"getInstance",oneST);
-        // Test 21
-        assertTrue(discreteAD.hasNext());
-        // Test 22
+        DiscreteActionDependent discreteAD = new DiscreteActionDependent(clock,"test avec getInstance",oneST);
+        assertTrue(discreteAD.hasNext()); // Test DAD9
         oneST.next();
-        assertFalse(discreteAD.hasNext());
+        assertFalse(discreteAD.hasNext()); // Test DAD10
         
 	}
 
