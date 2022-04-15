@@ -2,9 +2,11 @@ package timer;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import junit.framework.Assert;
 import timer.RandomTimer.randomDistribution;
@@ -14,6 +16,7 @@ class PeriodicTimerTest {
 	
 
 	
+
 
 	@Test
 	void PT1() {
@@ -95,36 +98,30 @@ class PeriodicTimerTest {
 		Assert.assertEquals(pt8.getPeriod(), 0);
 		Assert.assertTrue(pt8.hasNext());
 		Assert.assertEquals(pt8.next(),testvalue,0.1);
+		
 	}
-
-	@Test
-	void PT9() {
-		Assert.assertThrows(Exception.class , () -> {
-			PeriodicTimer pt9 = new PeriodicTimer(-1);
-			
-	});
-	
 	
 	@Test
 	void PT10() {
-	Assert.assertThrows(Exception.class , () -> {
+
+	 assertThrows(Exception.class , () -> {
 		PeriodicTimer pt10 = new PeriodicTimer(-1,-1);
 
-	});
+	});}
 	
 	@Test
 	void PT11() {
-		Assert.assertThrows(Exception.class , () -> {
+		assertThrows(Exception.class , () -> {
 			PeriodicTimer pt10 = new PeriodicTimer(-1,null);
 
-		});
+		});}
 
 	@Test
 	void PT12()  {
-		Assert.assertThrows(Exception.class , () -> {
+		 assertThrows(Exception.class , () -> {
 			PeriodicTimer pt10 = new PeriodicTimer(-1,-1,null);
 
-		});
+		});}
 	
 	
 
