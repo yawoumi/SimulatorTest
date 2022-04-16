@@ -1,0 +1,5 @@
+Resource	Date	Description
+DiscreteActionTest.java	null	Remove this unused import 'org.junit.jupiter.api.Assertions'.
+DiscreteActionTest.java	null	Rename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.
+DiscreteActionTest.java	null	Remove this assertion from production code. [+7 locations]
+DiscreteActionTest.java	null	Define a constant instead of duplicating this literal "test avec getInstance" 4 times. [+4 locations]

@@ -1,0 +1,10 @@
+Resource	Date	Description
+DiscreteActionDependentTest.java	10 minutes ago	Remove this unused "clock2" local variable.
+DiscreteActionDependentTest.java	10 minutes ago	Remove this unused import 'org.junit.jupiter.api.BeforeEach'.
+DiscreteActionDependentTest.java	10 minutes ago	Remove this useless assignment to local variable "clock2".
+DiscreteActionDependentTest.java	null	Remove this array creation.
+DiscreteActionDependentTest.java	null	Remove this array creation.
+DiscreteActionDependentTest.java	null	Remove this array creation.
+DiscreteActionDependentTest.java	null	Remove this array creation.
+DiscreteActionDependentTest.java	null	Rename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.
+DiscreteActionDependentTest.java	null	Remove this assertion from production code. [+11 locations]

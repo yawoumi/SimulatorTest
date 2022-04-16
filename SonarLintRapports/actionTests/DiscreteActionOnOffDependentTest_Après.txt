@@ -1,0 +1,28 @@
+Resource	Date	Description
+DiscreteActionOnOffDependentTest.java	5 minutes ago	Remove this unused import 'org.junit.jupiter.api.BeforeEach'.
+DiscreteActionOnOffDependentTest.java	null	Remove this array creation.
+DiscreteActionOnOffDependentTest.java	null	Remove this array creation.
+DiscreteActionOnOffDependentTest.java	null	Remove this array creation.
+DiscreteActionOnOffDependentTest.java	null	Remove this unused import 'timer.DateTimer'.
+DiscreteActionOnOffDependentTest.java	null	Remove this unused import 'timer.Timer'.
+DiscreteActionOnOffDependentTest.java	null	Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
+DiscreteActionOnOffDependentTest.java	null	Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
+DiscreteActionOnOffDependentTest.java	null	Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
+DiscreteActionOnOffDependentTest.java	null	Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
+DiscreteActionOnOffDependentTest.java	null	Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
+DiscreteActionOnOffDependentTest.java	null	Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
+DiscreteActionOnOffDependentTest.java	null	Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
+DiscreteActionOnOffDependentTest.java	null	Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
+DiscreteActionOnOffDependentTest.java	null	Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
+DiscreteActionOnOffDependentTest.java	null	Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
+DiscreteActionOnOffDependentTest.java	null	Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
+DiscreteActionOnOffDependentTest.java	null	Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
+DiscreteActionOnOffDependentTest.java	null	Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
+DiscreteActionOnOffDependentTest.java	null	Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
+DiscreteActionOnOffDependentTest.java	null	Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
+DiscreteActionOnOffDependentTest.java	null	Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
+DiscreteActionOnOffDependentTest.java	null	Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
+DiscreteActionOnOffDependentTest.java	null	Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
+DiscreteActionOnOffDependentTest.java	null	Rename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.
+DiscreteActionOnOffDependentTest.java	null	Remove this assertion from production code. [+7 locations]
+DiscreteActionOnOffDependentTest.java	null	Define a constant instead of duplicating this literal "test avec getTime" 4 times. [+4 locations]
