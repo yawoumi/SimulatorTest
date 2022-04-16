@@ -1,0 +1,6 @@
+Resource	Date	Description
+DiscreteActionSimulatorTest.java	null	Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.
+DiscreteActionSimulatorTest.java	null	Rename this field "DAS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
+DiscreteActionSimulatorTest.java	null	Rename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.
+DiscreteActionSimulatorTest.java	null	Define and throw a dedicated exception instead of using a generic one.
+DiscreteActionSimulatorTest.java	null	Remove this assertion from production code. [+8 locations]

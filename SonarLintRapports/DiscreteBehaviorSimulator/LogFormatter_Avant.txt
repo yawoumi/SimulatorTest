@@ -1,0 +1,8 @@
+Resource	Date	Description
+LogFormatterTest.java	1 hour ago	This block of commented-out lines of code should be removed.
+LogFormatterTest.java	null	Complete the task associated to this TODO comment.
+LogFormatterTest.java	null	Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
+LogFormatterTest.java	null	Rename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.
+LogFormatterTest.java	null	Define and throw a dedicated exception instead of using a generic one.
+LogFormatterTest.java	null	Remove this assertion from production code. [+2 locations]
+LogFormatterTest.java	null	Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".

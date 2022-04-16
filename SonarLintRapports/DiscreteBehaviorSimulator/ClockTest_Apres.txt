@@ -1,0 +1,16 @@
+Resource	Date	Description
+ClockTest.java	5 minutes ago	Remove the unnecessary boolean literal.
+ClockTest.java	3 hours ago	Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.
+ClockTest.java	3 hours ago	Remove the unnecessary boolean literal.
+ClockTest.java	3 hours ago	Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
+ClockTest.java	3 hours ago	Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
+ClockTest.java	3 hours ago	Change this instance-reference to a static reference.
+ClockTest.java	3 hours ago	Change this instance-reference to a static reference.
+ClockTest.java	3 hours ago	Remove this assertion from production code. [+15 locations]
+ClockTest.java	3 hours ago	Remove this expression which always evaluates to "true" [+2 locations]
+ClockTest.java	3 hours ago	Remove this expression which always evaluates to "true" [+2 locations]
+ClockTest.java	3 hours ago	Remove this expression which always evaluates to "true" [+2 locations]
+ClockTest.java	3 hours ago	Remove this expression which always evaluates to "true" [+2 locations]
+ClockTest.java	3 hours ago	Update this method so that its implementation is not identical to "testAddObserver" on line 31. [+1 location]
+ClockTest.java	null	Rename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.
+ClockTest.java	null	Define and throw a dedicated exception instead of using a generic one.
