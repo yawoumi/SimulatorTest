@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TimeBoundedTimerTest" project="SimulatorTest" tests="10" started="10" failures="0" errors="0" ignored="0">
+  <testsuite name="timer.DateTimerTest" time="0.003" displayname="DateTimerTest" uniqueid="[engine:junit-vintage]/[runner:timer.DateTimerTest]">
+    <testcase name="testNext" classname="timer.DateTimerTest" time="0.0" displayname="testNext" uniqueid="[engine:junit-vintage]/[runner:timer.DateTimerTest]/[test:testNext(timer.DateTimerTest)]"/>
+    <testcase name="testDateTimerTreeSetOfInteger" classname="timer.DateTimerTest" time="0.0" displayname="testDateTimerTreeSetOfInteger" uniqueid="[engine:junit-vintage]/[runner:timer.DateTimerTest]/[test:testDateTimerTreeSetOfInteger(timer.DateTimerTest)]"/>
+    <testcase name="DT3" classname="timer.DateTimerTest" time="0.0" displayname="DT3" uniqueid="[engine:junit-vintage]/[runner:timer.DateTimerTest]/[test:DT3(timer.DateTimerTest)]"/>
+    <testcase name="DT4" classname="timer.DateTimerTest" time="0.0" displayname="DT4" uniqueid="[engine:junit-vintage]/[runner:timer.DateTimerTest]/[test:DT4(timer.DateTimerTest)]"/>
+    <testcase name="DT5" classname="timer.DateTimerTest" time="0.001" displayname="DT5" uniqueid="[engine:junit-vintage]/[runner:timer.DateTimerTest]/[test:DT5(timer.DateTimerTest)]"/>
+    <testcase name="DT6" classname="timer.DateTimerTest" time="0.001" displayname="DT6" uniqueid="[engine:junit-vintage]/[runner:timer.DateTimerTest]/[test:DT6(timer.DateTimerTest)]"/>
+    <testcase name="DT7" classname="timer.DateTimerTest" time="0.0" displayname="DT7" uniqueid="[engine:junit-vintage]/[runner:timer.DateTimerTest]/[test:DT7(timer.DateTimerTest)]"/>
+    <testcase name="DT8" classname="timer.DateTimerTest" time="0.0" displayname="DT8" uniqueid="[engine:junit-vintage]/[runner:timer.DateTimerTest]/[test:DT8(timer.DateTimerTest)]"/>
+    <testcase name="testHasNext" classname="timer.DateTimerTest" time="0.0" displayname="testHasNext" uniqueid="[engine:junit-vintage]/[runner:timer.DateTimerTest]/[test:testHasNext(timer.DateTimerTest)]"/>
+    <testcase name="testDateTimerVectorOfInteger" classname="timer.DateTimerTest" time="0.0" displayname="testDateTimerVectorOfInteger" uniqueid="[engine:junit-vintage]/[runner:timer.DateTimerTest]/[test:testDateTimerVectorOfInteger(timer.DateTimerTest)]"/>
+  </testsuite>
+</testrun>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MergedTimerTest" project="SimulatorTest" tests="7" started="7" failures="0" errors="0" ignored="0">
+  <testsuite name="timer.MergedTimerTest" time="0.0" displayname="MergedTimerTest" uniqueid="[engine:junit-vintage]/[runner:timer.MergedTimerTest]">
+    <testcase name="testNext" classname="timer.MergedTimerTest" time="0.0" displayname="testNext" uniqueid="[engine:junit-vintage]/[runner:timer.MergedTimerTest]/[test:testNext(timer.MergedTimerTest)]"/>
+    <testcase name="testMergedTimer" classname="timer.MergedTimerTest" time="0.0" displayname="testMergedTimer" uniqueid="[engine:junit-vintage]/[runner:timer.MergedTimerTest]/[test:testMergedTimer(timer.MergedTimerTest)]"/>
+    <testcase name="MT2" classname="timer.MergedTimerTest" time="0.0" displayname="MT2" uniqueid="[engine:junit-vintage]/[runner:timer.MergedTimerTest]/[test:MT2(timer.MergedTimerTest)]"/>
+    <testcase name="MT3" classname="timer.MergedTimerTest" time="0.0" displayname="MT3" uniqueid="[engine:junit-vintage]/[runner:timer.MergedTimerTest]/[test:MT3(timer.MergedTimerTest)]"/>
+    <testcase name="MT4" classname="timer.MergedTimerTest" time="0.0" displayname="MT4" uniqueid="[engine:junit-vintage]/[runner:timer.MergedTimerTest]/[test:MT4(timer.MergedTimerTest)]"/>
+    <testcase name="MT5" classname="timer.MergedTimerTest" time="0.0" displayname="MT5" uniqueid="[engine:junit-vintage]/[runner:timer.MergedTimerTest]/[test:MT5(timer.MergedTimerTest)]"/>
+    <testcase name="testHasNext" classname="timer.MergedTimerTest" time="0.0" displayname="testHasNext" uniqueid="[engine:junit-vintage]/[runner:timer.MergedTimerTest]/[test:testHasNext(timer.MergedTimerTest)]"/>
+  </testsuite>
+</testrun>

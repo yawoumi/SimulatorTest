@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="OneShotTimerTest" project="SimulatorTest" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="timer.OneShotTimerTest" time="0.001" displayname="OneShotTimerTest" uniqueid="[engine:junit-vintage]/[runner:timer.OneShotTimerTest]">
+    <testcase name="testNext" classname="timer.OneShotTimerTest" time="0.0" displayname="testNext" uniqueid="[engine:junit-vintage]/[runner:timer.OneShotTimerTest]/[test:testNext(timer.OneShotTimerTest)]"/>
+    <testcase name="testOneShotTimer" classname="timer.OneShotTimerTest" time="0.0" displayname="testOneShotTimer" uniqueid="[engine:junit-vintage]/[runner:timer.OneShotTimerTest]/[test:testOneShotTimer(timer.OneShotTimerTest)]"/>
+    <testcase name="OST4" classname="timer.OneShotTimerTest" time="0.0" displayname="OST4" uniqueid="[engine:junit-vintage]/[runner:timer.OneShotTimerTest]/[test:OST4(timer.OneShotTimerTest)]"/>
+    <testcase name="OST5" classname="timer.OneShotTimerTest" time="0.0" displayname="OST5" uniqueid="[engine:junit-vintage]/[runner:timer.OneShotTimerTest]/[test:OST5(timer.OneShotTimerTest)]"/>
+    <testcase name="testHasNext" classname="timer.OneShotTimerTest" time="0.0" displayname="testHasNext" uniqueid="[engine:junit-vintage]/[runner:timer.OneShotTimerTest]/[test:testHasNext(timer.OneShotTimerTest)]"/>
+  </testsuite>
+</testrun>
