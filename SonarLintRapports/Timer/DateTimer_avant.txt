@@ -1,0 +1,79 @@
+Resource	Date	Description
+DateTimerTest.java	6 minutes ago	Do something with the "boolean" value returned by "hasNext".
+DateTimerTest.java	6 minutes ago	Do something with the "boolean" value returned by "hasNext".
+DateTimerTest.java	6 minutes ago	Do something with the "boolean" value returned by "hasNext".
+DateTimerTest.java	6 minutes ago	Do something with the "boolean" value returned by "hasNext".
+DateTimerTest.java	6 minutes ago	Do something with the "boolean" value returned by "hasNext".
+DateTimerTest.java	6 minutes ago	Do something with the "boolean" value returned by "hasNext".
+DateTimerTest.java	6 minutes ago	Do something with the "boolean" value returned by "hasNext".
+DateTimerTest.java	6 minutes ago	Do something with the "boolean" value returned by "hasNext".
+DateTimerTest.java	6 minutes ago	Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.
+DateTimerTest.java	6 minutes ago	Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.
+DateTimerTest.java	6 minutes ago	Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.
+DateTimerTest.java	6 minutes ago	Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.
+DateTimerTest.java	6 minutes ago	Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.
+DateTimerTest.java	6 minutes ago	Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.
+DateTimerTest.java	6 minutes ago	Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.
+DateTimerTest.java	6 minutes ago	Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.
+DateTimerTest.java	6 minutes ago	Remove this unused import 'junit.framework.Assert'.
+DateTimerTest.java	6 minutes ago	Remove this unused import 'junit.framework.Assert'.
+DateTimerTest.java	6 minutes ago	Provide the parametrized type for this generic.
+DateTimerTest.java	6 minutes ago	Provide the parametrized type for this generic.
+DateTimerTest.java	6 minutes ago	Provide the parametrized type for this generic.
+DateTimerTest.java	6 minutes ago	Provide the parametrized type for this generic.
+DateTimerTest.java	6 minutes ago	Provide the parametrized type for this generic.
+DateTimerTest.java	6 minutes ago	Provide the parametrized type for this generic.
+DateTimerTest.java	6 minutes ago	Provide the parametrized type for this generic.
+DateTimerTest.java	6 minutes ago	Provide the parametrized type for this generic.
+DateTimerTest.java	6 minutes ago	Remove this assertion from production code. [+9 locations]
+DateTimerTest.java	6 minutes ago	Remove this assertion from production code. [+9 locations]
+DateTimerTest.java	6 minutes ago	Replace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".
+DateTimerTest.java	6 minutes ago	Replace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".
+DateTimerTest.java	6 minutes ago	Replace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".
+DateTimerTest.java	6 minutes ago	Replace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".
+DateTimerTest.java	null	Do something with the "boolean" value returned by "hasNext".
+DateTimerTest.java	null	Do something with the "boolean" value returned by "hasNext".
+DateTimerTest.java	null	Do something with the "boolean" value returned by "hasNext".
+DateTimerTest.java	null	Do something with the "boolean" value returned by "hasNext".
+DateTimerTest.java	null	Remove the "treeTimer" field and declare it as a local variable in the relevant methods.
+DateTimerTest.java	null	Remove the "treeTimer" field and declare it as a local variable in the relevant methods.
+DateTimerTest.java	null	Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.
+DateTimerTest.java	null	Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.
+DateTimerTest.java	null	Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
+DateTimerTest.java	null	Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
+DateTimerTest.java	null	Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
+DateTimerTest.java	null	Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
+DateTimerTest.java	null	Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
+DateTimerTest.java	null	Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
+DateTimerTest.java	null	Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
+DateTimerTest.java	null	Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
+DateTimerTest.java	null	Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
+DateTimerTest.java	null	Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
+DateTimerTest.java	null	Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
+DateTimerTest.java	null	Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
+DateTimerTest.java	null	Replace the type specification in this constructor call with the diamond operator ("<>").
+DateTimerTest.java	null	Replace the type specification in this constructor call with the diamond operator ("<>").
+DateTimerTest.java	null	Replace the type specification in this constructor call with the diamond operator ("<>").
+DateTimerTest.java	null	Replace the type specification in this constructor call with the diamond operator ("<>").
+DateTimerTest.java	null	Replace the type specification in this constructor call with the diamond operator ("<>").
+DateTimerTest.java	null	Replace the type specification in this constructor call with the diamond operator ("<>").
+DateTimerTest.java	null	Replace the type specification in this constructor call with the diamond operator ("<>").
+DateTimerTest.java	null	Replace the type specification in this constructor call with the diamond operator ("<>").
+DateTimerTest.java	null	Define and throw a dedicated exception instead of using a generic one.
+DateTimerTest.java	null	Define and throw a dedicated exception instead of using a generic one.
+DateTimerTest.java	null	Define and throw a dedicated exception instead of using a generic one.
+DateTimerTest.java	null	Define and throw a dedicated exception instead of using a generic one.
+DateTimerTest.java	null	Define and throw a dedicated exception instead of using a generic one.
+DateTimerTest.java	null	Define and throw a dedicated exception instead of using a generic one.
+DateTimerTest.java	null	Define and throw a dedicated exception instead of using a generic one.
+DateTimerTest.java	null	Define and throw a dedicated exception instead of using a generic one.
+DateTimerTest.java	null	Define and throw a dedicated exception instead of using a generic one.
+DateTimerTest.java	null	Define and throw a dedicated exception instead of using a generic one.
+DateTimerTest.java	null	Provide the parametrized type for this generic.
+DateTimerTest.java	null	Provide the parametrized type for this generic.
+DateTimerTest.java	null	Provide the parametrized type for this generic.
+DateTimerTest.java	null	Provide the parametrized type for this generic.
+DateTimerTest.java	null	Replace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".
+DateTimerTest.java	null	Replace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".
+DateTimerTest.java	null	Replace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".
+DateTimerTest.java	null	Replace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".
