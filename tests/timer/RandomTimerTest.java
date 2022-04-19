@@ -1,189 +1,70 @@
 package timer;
 
-import java.util.Random;
-import java.util.Vector;
+import static org.junit.jupiter.api.Assertions.*;
 
-/**
- * @author Flavien Vernier
- *
- */
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
+import junit.framework.Assert;
+import timer.RandomTimer.randomDistribution;
 
+class RandomTimerTest {
 
-public class RandomTimer implements Timer {
-	
-	public static enum randomDistribution {
-		POISSON, EXP, POSIBILIST, GAUSSIAN;
+	@Test
+	void RT1() throws Exception {
+		RandomTimer rt1 ;
+		randomDistribution distribution = RandomTimer.string2Distribution("EXP");
+		rt1 = new RandomTimer(distribution,1.1);
+		Assert.assertEquals(rt1.getDistribution(), "EXP");
+		Assert.assertEquals(rt1.getDistributionParam(),"rate: 1.1");
+		Assert.assertEquals(rt1.toString(),"EXP rate:1.1");
+		Assert.assertEquals(rt1.getMean(),1/1.1);
+		Assert.assertTrue(rt1.hasNext());	
 	}
 	
-	//private static String randomDistributionString[] = {"POISSON", "EXP", "POSIBILIST", "GAUSSIAN"};
 	
-	private Random r = new Random();
-	private randomDistribution distribution;
-	private double rate;
-	private double mean;
-	private double lolim;
-	private double hilim; 
-	//private int width; 
-	
-
-	public static randomDistribution string2Distribution(String distributionName){
-		return RandomTimer.randomDistribution.valueOf(RandomTimer.randomDistribution.class, distributionName.toUpperCase());
-	}	
-	public static String distribution2String(randomDistribution distribution){
-		return distribution.name();
-	}
-	
-	/**
-	 * @param param constraint 
-	 * @throws Exception 
-	 */
-	public RandomTimer(randomDistribution distribution, double param) throws Exception{
-		if(distribution == randomDistribution.EXP ){
-			this.distribution = distribution;
-			this.rate = param;
-			this.mean = 1/param;
-			this.lolim = 0;
-			this.hilim = Double.POSITIVE_INFINITY;
-		}else if(distribution == randomDistribution.POISSON){
-			this.distribution = distribution;
-			this.rate = Double.NaN;
-			this.mean = param;
-			this.lolim = 0;
-			this.hilim = Double.POSITIVE_INFINITY;
-		}else{
-			throw new Exception("Bad Timer constructor for selected distribution");
-		}
-	}
-	/**
-	 * @param min/max constraint
-	 * @throws Exception 
-	 */
-	public RandomTimer(randomDistribution distribution, int lolim, int hilim) throws Exception{
-		if(distribution == randomDistribution.POSIBILIST || distribution == randomDistribution.GAUSSIAN){
-			this.distribution = distribution;
-			this.mean = lolim + (hilim - lolim)/2;
-			this.rate = Double.NaN;
-			this.lolim = lolim;
-			this.hilim = hilim;
-		}else{
-			throw new Exception("Bad Timer constructor for selected distribution");
-		}
-	}
-	
-	public String getDistribution(){
-		return this.distribution.name();
-	}
-	
-	public String getDistributionParam() {
-		if(distribution == randomDistribution.EXP ){
-			return "rate: " + this.rate;
-		}else if(distribution == randomDistribution.POISSON){
-			return "mean: " + this.mean;
-		}else if(distribution == randomDistribution.POSIBILIST || distribution == randomDistribution.GAUSSIAN){
-			return "lolim: " + this.lolim + " hilim: " + this.hilim;
-		}
+	@Test
+	void RT2() throws Exception {
+		RandomTimer rt2 ;
+		randomDistribution distribution = RandomTimer.string2Distribution("POISSON");
+		rt2 = new RandomTimer(distribution,2.3);
+		int nxtTP =  rt2.nextTimePoisson();
+		Assert.assertEquals(rt2.getDistribution(), "POISSON");
+		Assert.assertTrue(rt2.hasNext());
+		Assert.assertEquals(rt2.getDistributionParam(),"mean: 2.3");
+		Assert.assertEquals(rt2.toString(),"POISSON mean:2.3");
+		Assert.assertEquals(rt2.getMean(), 2.3);		
+		Assert.assertEquals(rt2.distribution2String(distribution),"POISSON");
+		Assert.assertEquals( rt2.next().toString() ,"5");
 		
-		return "null";
 	}
 	
-	public double getMean(){
-		return this.mean;
-	}
-	
-	public String toString(){
-		String s = this.getDistribution();
-		switch (this.distribution){
-		case POSIBILIST :
-			s += " LoLim:" + this.lolim + " HiLim:" + this.hilim;
-			break;
-		case POISSON :
-			s += " mean:" + this.mean;
-			break;
-		case EXP :
-			s += " rate:" + this.rate;
-			break;
-		case GAUSSIAN :
-			s += " LoLim:" + this.lolim + " HiLim:" + this.hilim;
-			break;
-		}
+	@Test
+	void RT3() throws Exception {
+		RandomTimer rt3 ;
+		int a = 1;
+		randomDistribution distribution = RandomTimer.string2Distribution("POSIBILIST");
+		rt3 = new RandomTimer(distribution,1,2);
+		Assert.assertEquals(rt3.getDistribution(), "POSIBILIST");
+		Assert.assertTrue(rt3.hasNext());
+		Assert.assertEquals( rt3.next().toString() ,"1");
+		Assert.assertEquals(rt3.toString(),"POSIBILIST LoLim:1.0 HiLim:2.0");
+		Assert.assertEquals(rt3.getDistributionParam(),"lolim: 1.0 hilim: 2.0");
 		
-		return s;
+	
 	}
 	
-
-	/* (non-Javadoc)
-	 * @see methodInvocator.Timer#next()
-	 */
-	@Override
-	public Integer next(){
-		switch (this.distribution){
-		case POSIBILIST :
-			return this.nextTimePosibilist();
-		case POISSON :
-			return this.nextTimePoisson();
-		case EXP :
-			return this.nextTimeExp();
-		case GAUSSIAN :
-			return this.nextTimeGaussian();
+	@Test
+	void RT4() throws Exception {
+		RandomTimer rt4 ;
+		randomDistribution distribution = RandomTimer.string2Distribution("GAUSSIAN");
+		rt4 = new RandomTimer(distribution,1,2);
+		Assert.assertEquals(rt4.getDistribution(), "GAUSSIAN");
+		Assert.assertTrue(rt4.hasNext());
+		Assert.assertEquals(rt4.getMean(), 1.0);
+		Assert.assertEquals(rt4.getDistributionParam(),"lolim: 1.0 hilim: 2.0");
+		Assert.assertEquals(rt4.toString(),"GAUSSIAN LoLim:1.0 HiLim:2.0");
 		}
-		return -1; // Theoretically impossible !!!
-	}
-	
-	/*
-	 * Equivalent to methodInvocator.RandomTimer#next()
-	 * 
-	 * @param since has no effect
-	 * 
-	 * @see methodInvocator.RandomTimer#next(int)
-	 */
-	/*@Override
-	public Integer next(int since){
-		return this.next();
-	}*/
-	
-	/**
-	 * Give good mean
-	 * Give wrong variance  
-	 */
-	int nextTimePosibilist(){
-	    return (int)this.lolim + (int)(this.r.nextDouble() * (this.hilim - this.lolim));
-	}
-	
-	/**
-	 * Give good mean
-	 * Give wrong variance  
-	 */
-	private int nextTimeExp(){
-	    return (int)(-Math.log(1.0 - this.r.nextDouble()) / this.rate);
-	}
-	
-	
-	/**
-	 * Give good mean
-	 * Give good variance
-	 */
-	int nextTimePoisson() {
-	    
-	    double L = Math.exp(-this.mean);
-	    int k = 0;
-	    double p = 1.0;
-	    do {
-	        p = p * this.r.nextDouble();
-	        k++;
-	    } while (p > L);
-	    return k - 1;
-	}   		
-	    
-	
-	private int nextTimeGaussian(){
-		return (int)this.lolim + (int)((this.r.nextGaussian() + 1.0)/2.0 * (this.hilim - this.lolim));
-	}
-	
-	
-	@Override
-	public boolean hasNext() {
-		return true;
-	}
-	
+
 }
