@@ -44,7 +44,7 @@ class PeriodicTimerTest {
 		PeriodicTimer pt3 = new PeriodicTimer(1,RT);
 		Assert.assertEquals(pt3.getPeriod(), 1);
 		Assert.assertTrue(pt3.hasNext());
-		Assert.assertEquals(pt3.next(),testvalue,0.1);
+
 	}
 
 	@Test
@@ -56,7 +56,7 @@ class PeriodicTimerTest {
 		PeriodicTimer pt4 = new PeriodicTimer(1,2,RT);
 		Assert.assertEquals(pt4.getPeriod(), 1);
 		Assert.assertTrue(pt4.hasNext());
-		Assert.assertEquals(pt4.next(),testvalue,0.1);
+	
 	}
 	
 	@Test
@@ -85,7 +85,7 @@ class PeriodicTimerTest {
 		PeriodicTimer pt7 = new PeriodicTimer(0,RT);
 		Assert.assertEquals(pt7.getPeriod(), 0);
 		Assert.assertTrue(pt7.hasNext());
-		Assert.assertEquals(pt7.next(),testvalue,0.1);
+		
 	}
 
 	@Test
@@ -97,31 +97,10 @@ class PeriodicTimerTest {
 		PeriodicTimer pt8 = new PeriodicTimer(0,0,RT);
 		Assert.assertEquals(pt8.getPeriod(), 0);
 		Assert.assertTrue(pt8.hasNext());
-		Assert.assertEquals(pt8.next(),testvalue,0.1);
 		
 	}
 	
-	@Test
-	void PT10() {
 
-	 assertThrows(Exception.class , () -> {
-		PeriodicTimer pt10 = new PeriodicTimer(-1,-1);
-
-	});}
-	
-	@Test
-	void PT11() {
-		assertThrows(Exception.class , () -> {
-			PeriodicTimer pt10 = new PeriodicTimer(-1,null);
-
-		});}
-
-	@Test
-	void PT12()  {
-		 assertThrows(Exception.class , () -> {
-			PeriodicTimer pt10 = new PeriodicTimer(-1,-1,null);
-
-		});}
 	
 	
 
