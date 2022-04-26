@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_0CCz0IAXEeycjqFks8KX-A">
+  <modelElement href="discreteBehaviorSimulator.uml#_0LecoIAXEeycjqFks8KX-A"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0PahcIAXEeycjqFks8KX-A" sourceAnchor="150.0,0.0" targetAnchor="0.0,184.0" target="_0PcWsoAXEeycjqFks8KX-A" source="_0PcWsoAXEeycjqFks8KX-A">
+    <modelElement href="discreteBehaviorSimulator.uml#_0Ma30IAXEeycjqFks8KX-A"/>
+    <bendpoints xmi:id="_07LbQIAXEeycjqFks8KX-A" sourceY="-127" targetX="150" targetY="-311"/>
+    <bendpoints xmi:id="_07MCUIAXEeycjqFks8KX-A" sourceX="-260" sourceY="-127" targetX="-110" targetY="-311"/>
+    <bendpoints xmi:id="_07MCUYAXEeycjqFks8KX-A" sourceX="-260" sourceY="184" targetX="-110"/>
+    <stereotypes xmi:id="_0PbIg4AXEeycjqFks8KX-A" name="Reference">
+      <modelElement href="discreteBehaviorSimulator.uml#_0Ma30oAXEeycjqFks8KX-A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_0PbIgIAXEeycjqFks8KX-A" text="">
+      <visualProperties xmi:id="_07MpYIAXEeycjqFks8KX-A" position="198.0,-11.499999999999986"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0PbIgYAXEeycjqFks8KX-A" aggregationKind="NONE" name="">
+      <modelElement href="discreteBehaviorSimulator.uml#_0Ma30YAXEeycjqFks8KX-A"/>
+      <visualProperties xmi:id="_07MCVIAXEeycjqFks8KX-A" position="-21.0,-60.0"/>
+      <visibility xmi:id="_0PbvkYAXEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_0PbvkIAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0PbIgoAXEeycjqFks8KX-A" aggregationKind="NONE" name="instance" navigable="true">
+      <modelElement href="discreteBehaviorSimulator.uml#_0MS8AIAXEeycjqFks8KX-A"/>
+      <visualProperties xmi:id="_07MpYYAXEeycjqFks8KX-A" position="-75.00000000000003,11.999999999999943"/>
+      <visibility xmi:id="_0Pbvk4AXEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_0PbvkoAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0PcWoIAXEeycjqFks8KX-A" source="_0PcWsoAXEeycjqFks8KX-A">
+    <modelElement href="discreteBehaviorSimulator.uml#_0Mbe4IAXEeycjqFks8KX-A"/>
+    <stereotypes xmi:id="_0PcWoYAXEeycjqFks8KX-A" name="Reference">
+      <modelElement href="discreteBehaviorSimulator.uml#_0Mbe4oAXEeycjqFks8KX-A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_0PcWooAXEeycjqFks8KX-A" text=""/>
+    <sourceRole xmi:id="_0PcWo4AXEeycjqFks8KX-A" aggregationKind="NONE" name="">
+      <modelElement href="discreteBehaviorSimulator.uml#_0Mbe4YAXEeycjqFks8KX-A"/>
+      <visibility xmi:id="_0PcWpIAXEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_0PcWpYAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0PcWpoAXEeycjqFks8KX-A" aggregationKind="NONE" name="lock" navigable="true">
+      <modelElement href="discreteBehaviorSimulator.uml#_0MUKI4AXEeycjqFks8KX-A"/>
+      <visibility xmi:id="_0PcWp4AXEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_0PcWqIAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0PcWqYAXEeycjqFks8KX-A" sourceAnchor="300.0,184.0" targetAnchor="141.0,108.0" target="_0PhPIIAXEeycjqFks8KX-A" source="_0PcWsoAXEeycjqFks8KX-A">
+    <modelElement href="discreteBehaviorSimulator.uml#_0Mbe44AXEeycjqFks8KX-A"/>
+    <bendpoints xmi:id="_07MCUoAXEeycjqFks8KX-A" sourceX="681" targetY="308"/>
+    <stereotypes xmi:id="_0PcWqoAXEeycjqFks8KX-A" name="Reference">
+      <modelElement href="discreteBehaviorSimulator.uml#_0Mbe5YAXEeycjqFks8KX-A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_0PcWq4AXEeycjqFks8KX-A" text="">
+      <visualProperties xmi:id="_07NQcYAXEeycjqFks8KX-A" position="-627.6420462242615,-19.67892499483969"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0PcWrIAXEeycjqFks8KX-A" aggregationKind="NONE" name="">
+      <modelElement href="discreteBehaviorSimulator.uml#_0Mbe5IAXEeycjqFks8KX-A"/>
+      <visualProperties xmi:id="_07NQcIAXEeycjqFks8KX-A" position="43.725262864002275,-37.80496097400942"/>
+      <visibility xmi:id="_0PcWrYAXEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_0PcWroAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0PcWr4AXEeycjqFks8KX-A" aggregationKind="NONE" name="observers" navigable="true">
+      <modelElement href="discreteBehaviorSimulator.uml#_0MUxMIAXEeycjqFks8KX-A"/>
+      <visualProperties xmi:id="_07NQcoAXEeycjqFks8KX-A" position="-613.9096533181352,270.4644414367406"/>
+      <visibility xmi:id="_0PcWsIAXEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_0PcWsYAXEeycjqFks8KX-A" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0PjEUIAXEeycjqFks8KX-A" sourceAnchor="408.0,231.0" targetAnchor="150.0,369.0" target="_0PcWsoAXEeycjqFks8KX-A" source="_0Poj8oAXEeycjqFks8KX-A">
+    <modelElement href="discreteBehaviorSimulator.uml#_0McF84AXEeycjqFks8KX-A"/>
+    <bendpoints xmi:id="_07MCU4AXEeycjqFks8KX-A" sourceX="210" targetY="216"/>
+    <stereotypes xmi:id="_0PlglYAXEeycjqFks8KX-A" name="Reference">
+      <modelElement href="discreteBehaviorSimulator.uml#_0McF9YAXEeycjqFks8KX-A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_0PlgkoAXEeycjqFks8KX-A" text="">
+      <visualProperties xmi:id="_07N3gIAXEeycjqFks8KX-A" position="-75.4075511359161,-4.701669210309319"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0Plgk4AXEeycjqFks8KX-A" aggregationKind="NONE" name="">
+      <modelElement href="discreteBehaviorSimulator.uml#_0McF9IAXEeycjqFks8KX-A"/>
+      <visualProperties xmi:id="_07NQc4AXEeycjqFks8KX-A" position="37.93404284060552,-16.011062847519042"/>
+      <visibility xmi:id="_0PmusYAXEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_0PmusIAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0PlglIAXEeycjqFks8KX-A" aggregationKind="NONE" name="globalTime" navigable="true">
+      <modelElement href="discreteBehaviorSimulator.uml#_0MVYRoAXEeycjqFks8KX-A"/>
+      <visualProperties xmi:id="_07N3gYAXEeycjqFks8KX-A" position="16.36718674211056,199.81189794692853"/>
+      <visibility xmi:id="_0Pmus4AXEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_0PmusoAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_0PlgkYAXEeycjqFks8KX-A" targetItem="_0Poj8oAXEeycjqFks8KX-A" sourceItem="_0PlgkIAXEeycjqFks8KX-A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_0PmHoYAXEeycjqFks8KX-A" targetItem="_0PokKYAXEeycjqFks8KX-A" sourceItem="_0PmHoIAXEeycjqFks8KX-A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_0PmHo4AXEeycjqFks8KX-A" targetItem="_0PokL4AXEeycjqFks8KX-A" sourceItem="_0PmHooAXEeycjqFks8KX-A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_0PmHpYAXEeycjqFks8KX-A" targetItem="_0PokNIAXEeycjqFks8KX-A" sourceItem="_0PmHpIAXEeycjqFks8KX-A"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0PnVwIAXEeycjqFks8KX-A" source="_0Poj8oAXEeycjqFks8KX-A">
+    <modelElement href="discreteBehaviorSimulator.uml#_0McF8IAXEeycjqFks8KX-A"/>
+    <stereotypes xmi:id="_0PnVwYAXEeycjqFks8KX-A" name="Reference">
+      <modelElement href="discreteBehaviorSimulator.uml#_0McF8oAXEeycjqFks8KX-A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_0PnVwoAXEeycjqFks8KX-A" text=""/>
+    <sourceRole xmi:id="_0PnVw4AXEeycjqFks8KX-A" aggregationKind="NONE" name="">
+      <modelElement href="discreteBehaviorSimulator.uml#_0McF8YAXEeycjqFks8KX-A"/>
+      <visibility xmi:id="_0PnVxIAXEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_0PnVxYAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0PnVxoAXEeycjqFks8KX-A" aggregationKind="NONE" name="t" navigable="true">
+      <modelElement href="discreteBehaviorSimulator.uml#_0MUxM4AXEeycjqFks8KX-A"/>
+      <visibility xmi:id="_0PnVx4AXEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_0PnVyIAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0Pn80IAXEeycjqFks8KX-A" source="_0Poj8oAXEeycjqFks8KX-A">
+    <modelElement href="discreteBehaviorSimulator.uml#_0McF9oAXEeycjqFks8KX-A"/>
+    <stereotypes xmi:id="_0Pn80YAXEeycjqFks8KX-A" name="Reference">
+      <modelElement href="discreteBehaviorSimulator.uml#_0MctAIAXEeycjqFks8KX-A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_0Pn80oAXEeycjqFks8KX-A" text=""/>
+    <sourceRole xmi:id="_0Pn804AXEeycjqFks8KX-A" aggregationKind="NONE" name="">
+      <modelElement href="discreteBehaviorSimulator.uml#_0McF94AXEeycjqFks8KX-A"/>
+      <visibility xmi:id="_0Pn81IAXEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_0Pn81YAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0Pn81oAXEeycjqFks8KX-A" aggregationKind="NONE" name="actionsList" navigable="true">
+      <modelElement href="discreteBehaviorSimulator.uml#_0MV_UYAXEeycjqFks8KX-A"/>
+      <visibility xmi:id="_0Pn814AXEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_0Pn82IAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0Pn82YAXEeycjqFks8KX-A" source="_0Poj8oAXEeycjqFks8KX-A">
+    <modelElement href="discreteBehaviorSimulator.uml#_0MctAYAXEeycjqFks8KX-A"/>
+    <stereotypes xmi:id="_0Pn82oAXEeycjqFks8KX-A" name="Reference">
+      <modelElement href="discreteBehaviorSimulator.uml#_0MctA4AXEeycjqFks8KX-A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_0Pn824AXEeycjqFks8KX-A" text=""/>
+    <sourceRole xmi:id="_0Pn83IAXEeycjqFks8KX-A" aggregationKind="NONE" name="">
+      <modelElement href="discreteBehaviorSimulator.uml#_0MctAoAXEeycjqFks8KX-A"/>
+      <visibility xmi:id="_0Pn83YAXEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_0Pn83oAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0Pn834AXEeycjqFks8KX-A" aggregationKind="NONE" name="logger" navigable="true">
+      <modelElement href="discreteBehaviorSimulator.uml#_0MXNcIAXEeycjqFks8KX-A"/>
+      <visibility xmi:id="_0Pn84IAXEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_0Pn84YAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0Poj4IAXEeycjqFks8KX-A" source="_0Poj8oAXEeycjqFks8KX-A">
+    <modelElement href="discreteBehaviorSimulator.uml#_0MctBIAXEeycjqFks8KX-A"/>
+    <stereotypes xmi:id="_0Poj4YAXEeycjqFks8KX-A" name="Reference">
+      <modelElement href="discreteBehaviorSimulator.uml#_0MdUEIAXEeycjqFks8KX-A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_0Poj4oAXEeycjqFks8KX-A" text=""/>
+    <sourceRole xmi:id="_0Poj44AXEeycjqFks8KX-A" aggregationKind="NONE" name="">
+      <modelElement href="discreteBehaviorSimulator.uml#_0MctBYAXEeycjqFks8KX-A"/>
+      <visibility xmi:id="_0Poj5IAXEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_0Poj5YAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0Poj5oAXEeycjqFks8KX-A" aggregationKind="NONE" name="logFile" navigable="true">
+      <modelElement href="discreteBehaviorSimulator.uml#_0MXNcoAXEeycjqFks8KX-A"/>
+      <visibility xmi:id="_0Poj54AXEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_0Poj6IAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0Poj6YAXEeycjqFks8KX-A" source="_0Poj8oAXEeycjqFks8KX-A">
+    <modelElement href="discreteBehaviorSimulator.uml#_0MdUEYAXEeycjqFks8KX-A"/>
+    <stereotypes xmi:id="_0Poj6oAXEeycjqFks8KX-A" name="Reference">
+      <modelElement href="discreteBehaviorSimulator.uml#_0MdUE4AXEeycjqFks8KX-A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_0Poj64AXEeycjqFks8KX-A" text=""/>
+    <sourceRole xmi:id="_0Poj7IAXEeycjqFks8KX-A" aggregationKind="NONE" name="">
+      <modelElement href="discreteBehaviorSimulator.uml#_0MdUEoAXEeycjqFks8KX-A"/>
+      <visibility xmi:id="_0Poj7YAXEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_0Poj7oAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0Poj74AXEeycjqFks8KX-A" aggregationKind="NONE" name="logConsole" navigable="true">
+      <modelElement href="discreteBehaviorSimulator.uml#_0MXNdIAXEeycjqFks8KX-A"/>
+      <visibility xmi:id="_0Poj8IAXEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_0Poj8YAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_0PtcYIAXEeycjqFks8KX-A" targetItem="_0PuDcIAXEeycjqFks8KX-A" sourceItem="_0Ps1UIAXEeycjqFks8KX-A"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_0PlgkIAXEeycjqFks8KX-A" sourceConnectionVisual="_0PlgkYAXEeycjqFks8KX-A" text="@author Tiphaine Bulou (2016)&#xA;@author Flavien Vernier&#xA; *" item="_0Poj8oAXEeycjqFks8KX-A">
+    <modelElement href="discreteBehaviorSimulator.uml#_0MZpvIAXEeycjqFks8KX-A"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_0PmHoIAXEeycjqFks8KX-A" sourceConnectionVisual="_0PmHoYAXEeycjqFks8KX-A" text="@param nbLoop defines the number of loop for the simulation, the simulation is infinite if nbLoop is negative or 0." item="_0PokKYAXEeycjqFks8KX-A">
+    <modelElement href="discreteBehaviorSimulator.uml#_0MZpvYAXEeycjqFks8KX-A"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_0PmHooAXEeycjqFks8KX-A" sourceConnectionVisual="_0PmHo4AXEeycjqFks8KX-A" text="@return the laps time before the next action" item="_0PokL4AXEeycjqFks8KX-A">
+    <modelElement href="discreteBehaviorSimulator.uml#_0MZpvoAXEeycjqFks8KX-A"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_0PmHpIAXEeycjqFks8KX-A" sourceConnectionVisual="_0PmHpYAXEeycjqFks8KX-A" text="@return laps time of the running action" item="_0PokNIAXEeycjqFks8KX-A">
+    <modelElement href="discreteBehaviorSimulator.uml#_0MZpv4AXEeycjqFks8KX-A"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_0Ps1UIAXEeycjqFks8KX-A" sourceConnectionVisual="_0PtcYIAXEeycjqFks8KX-A" text="@author Flavien Vernier&#xA; *" item="_0PuDcIAXEeycjqFks8KX-A">
+    <modelElement href="discreteBehaviorSimulator.uml#_0MaQwIAXEeycjqFks8KX-A"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0PcWsoAXEeycjqFks8KX-A" name="Clock" associationsIn="_0PahcIAXEeycjqFks8KX-A _0PjEUIAXEeycjqFks8KX-A" associationsOut="_0PahcIAXEeycjqFks8KX-A _0PcWoIAXEeycjqFks8KX-A _0PcWqYAXEeycjqFks8KX-A">
+    <modelElement href="discreteBehaviorSimulator.uml#_0Lm_gIAXEeycjqFks8KX-A"/>
+    <visualProperties xmi:id="_0PcWs4AXEeycjqFks8KX-A" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_0PcWtIAXEeycjqFks8KX-A" label="+"/>
+    <attributes xmi:id="_0PcWtYAXEeycjqFks8KX-A" defaultValue="null" name="instance" staticAttribute="true">
+      <modelElement href="discreteBehaviorSimulator.uml#_0MS8AIAXEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_0PcWtoAXEeycjqFks8KX-A" name="LegacyStyledElement">
+        <modelElement href="discreteBehaviorSimulator.uml#_0MS8AYAXEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_0PcWt4AXEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_0PcWuIAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <type xmi:id="_0PcWuYAXEeycjqFks8KX-A" name="Clock">
+        <modelElement href="discreteBehaviorSimulator.uml#_0Lm_gIAXEeycjqFks8KX-A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0PcWuoAXEeycjqFks8KX-A" name="time">
+      <modelElement href="discreteBehaviorSimulator.uml#_0MTjEoAXEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_0PcWu4AXEeycjqFks8KX-A" name="LegacyStyledElement">
+        <modelElement href="discreteBehaviorSimulator.uml#_0MTjE4AXEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_0PcWvIAXEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_0PcWvYAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <type xmi:id="_0PcWvoAXEeycjqFks8KX-A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0PcWv4AXEeycjqFks8KX-A" name="nextJump">
+      <modelElement href="discreteBehaviorSimulator.uml#_0MUKIYAXEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_0PcWwIAXEeycjqFks8KX-A" name="LegacyStyledElement">
+        <modelElement href="discreteBehaviorSimulator.uml#_0MUKIoAXEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_0PcWwYAXEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_0PcWwoAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <type xmi:id="_0PcWw4AXEeycjqFks8KX-A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0PcWxIAXEeycjqFks8KX-A" name="lock">
+      <modelElement href="discreteBehaviorSimulator.uml#_0MUKI4AXEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_0PcWxYAXEeycjqFks8KX-A" name="LegacyStyledElement">
+        <modelElement href="discreteBehaviorSimulator.uml#_0MUKJIAXEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_0PcWxoAXEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_0PcWx4AXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <type xmi:id="_0PcWyIAXEeycjqFks8KX-A" name="ReentrantReadWriteLock">
+        <modelElement href="discreteBehaviorSimulator.uml#_0MGuwoAXEeycjqFks8KX-A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0PcWyYAXEeycjqFks8KX-A" name="virtual">
+      <modelElement href="discreteBehaviorSimulator.uml#_0MUKJYAXEeycjqFks8KX-A"/>
+      <visibility xmi:id="_0PcWyoAXEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_0PcWy4AXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <type xmi:id="_0PcWzIAXEeycjqFks8KX-A" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0PcWzYAXEeycjqFks8KX-A" name="observers">
+      <modelElement href="discreteBehaviorSimulator.uml#_0MUxMIAXEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_0PcWzoAXEeycjqFks8KX-A" name="LegacyStyledElement">
+        <modelElement href="discreteBehaviorSimulator.uml#_0MUxMoAXEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_0PcWz4AXEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_0PcW0IAXEeycjqFks8KX-A" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_0PcW0YAXEeycjqFks8KX-A" name="ClockObserver">
+        <modelElement href="discreteBehaviorSimulator.uml#_0LqC0IAXEeycjqFks8KX-A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_0PcW0oAXEeycjqFks8KX-A" name="Clock">
+      <modelElement href="discreteBehaviorSimulator.uml#_0LoNoIAXEeycjqFks8KX-A"/>
+      <keywords xmi:id="_0PcW04AXEeycjqFks8KX-A" keyword="create"/>
+      <visibility xmi:id="_0PcW1IAXEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_0PcW1YAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0PcW1oAXEeycjqFks8KX-A">
+        <modelElement href="discreteBehaviorSimulator.uml#_0LoNo4AXEeycjqFks8KX-A"/>
+        <type xmi:id="_0PcW14AXEeycjqFks8KX-A" name="Clock">
+          <modelElement href="discreteBehaviorSimulator.uml#_0Lm_gIAXEeycjqFks8KX-A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_0PcW2IAXEeycjqFks8KX-A" name="setNextJump">
+      <modelElement href="discreteBehaviorSimulator.uml#_0Lo0sIAXEeycjqFks8KX-A"/>
+      <visibility xmi:id="_0PcW2YAXEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_0PcW2oAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0PcW24AXEeycjqFks8KX-A" name="nextJump">
+        <modelElement href="discreteBehaviorSimulator.uml#_0Lo0sYAXEeycjqFks8KX-A"/>
+        <cardinality xmi:id="_0PcW3IAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+        <type xmi:id="_0PcW3YAXEeycjqFks8KX-A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0PcW3oAXEeycjqFks8KX-A" name="increase">
+      <modelElement href="discreteBehaviorSimulator.uml#_0Lo0soAXEeycjqFks8KX-A"/>
+      <visibility xmi:id="_0PcW34AXEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_0PcW4IAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0PcW4YAXEeycjqFks8KX-A" name="time">
+        <modelElement href="discreteBehaviorSimulator.uml#_0Lo0s4AXEeycjqFks8KX-A"/>
+        <cardinality xmi:id="_0PcW4oAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+        <type xmi:id="_0PcW44AXEeycjqFks8KX-A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0PcW5IAXEeycjqFks8KX-A" name="lockReadAccess">
+      <modelElement href="discreteBehaviorSimulator.uml#_0Lo0tIAXEeycjqFks8KX-A"/>
+      <visibility xmi:id="_0PcW5YAXEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_0PcW5oAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_0PcW54AXEeycjqFks8KX-A" name="unlockReadAccess">
+      <modelElement href="discreteBehaviorSimulator.uml#_0Lo0tYAXEeycjqFks8KX-A"/>
+      <visibility xmi:id="_0PcW6IAXEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_0PcW6YAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_0PcW6oAXEeycjqFks8KX-A" name="lockWriteAccess">
+      <modelElement href="discreteBehaviorSimulator.uml#_0Lo0toAXEeycjqFks8KX-A"/>
+      <visibility xmi:id="_0PcW64AXEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_0PcW7IAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_0PcW7YAXEeycjqFks8KX-A" name="unlockWriteAccess">
+      <modelElement href="discreteBehaviorSimulator.uml#_0LpbwIAXEeycjqFks8KX-A"/>
+      <visibility xmi:id="_0PcW7oAXEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_0PcW74AXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_0PcW8IAXEeycjqFks8KX-A" name="toString">
+      <modelElement href="discreteBehaviorSimulator.uml#_0LpbwYAXEeycjqFks8KX-A"/>
+      <visibility xmi:id="_0PcW8YAXEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_0PcW8oAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0PcW84AXEeycjqFks8KX-A">
+        <modelElement href="discreteBehaviorSimulator.uml#_0LpbwoAXEeycjqFks8KX-A"/>
+        <type xmi:id="_0PcW9IAXEeycjqFks8KX-A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_0PcW9YAXEeycjqFks8KX-A" name="addObserver">
+      <modelElement href="discreteBehaviorSimulator.uml#_0MH84IAXEeycjqFks8KX-A"/>
+      <visibility xmi:id="_0PcW9oAXEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_0PcW94AXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0PcW-IAXEeycjqFks8KX-A" name="o">
+        <modelElement href="discreteBehaviorSimulator.uml#_0MH84YAXEeycjqFks8KX-A"/>
+        <cardinality xmi:id="_0PcW-YAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+        <type xmi:id="_0PcW-oAXEeycjqFks8KX-A" name="ClockObserver">
+          <modelElement href="discreteBehaviorSimulator.uml#_0LqC0IAXEeycjqFks8KX-A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0PcW-4AXEeycjqFks8KX-A" name="removeObserver">
+      <modelElement href="discreteBehaviorSimulator.uml#_0MH84oAXEeycjqFks8KX-A"/>
+      <visibility xmi:id="_0PcW_IAXEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_0PcW_YAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0PcW_oAXEeycjqFks8KX-A" name="o">
+        <modelElement href="discreteBehaviorSimulator.uml#_0MH844AXEeycjqFks8KX-A"/>
+        <cardinality xmi:id="_0PcW_4AXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+        <type xmi:id="_0PcXAIAXEeycjqFks8KX-A" name="ClockObserver">
+          <modelElement href="discreteBehaviorSimulator.uml#_0LqC0IAXEeycjqFks8KX-A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0PgBAIAXEeycjqFks8KX-A" name="Exception">
+    <modelElement href="discreteBehaviorSimulator.uml#_0MPRoIAXEeycjqFks8KX-A"/>
+    <visualProperties xmi:id="_0PgBAYAXEeycjqFks8KX-A" position="534.0,-767.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_0PgBAoAXEeycjqFks8KX-A" name="Reference">
+      <modelElement href="discreteBehaviorSimulator.uml#_0MPRoYAXEeycjqFks8KX-A"/>
+    </stereotypes>
+    <visibility xmi:id="_0PgBA4AXEeycjqFks8KX-A" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_0PhPIIAXEeycjqFks8KX-A" name="ClockObserver" associationsIn="_0PcWqYAXEeycjqFks8KX-A">
+    <modelElement href="discreteBehaviorSimulator.uml#_0LqC0IAXEeycjqFks8KX-A"/>
+    <visualProperties xmi:id="_0PhPIYAXEeycjqFks8KX-A" position="870.0,-202.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_0PhPIoAXEeycjqFks8KX-A" label="+"/>
+    <operations xmi:id="_0PhPI4AXEeycjqFks8KX-A" name="clockChange">
+      <modelElement href="discreteBehaviorSimulator.uml#_0Lqp4IAXEeycjqFks8KX-A"/>
+      <visibility xmi:id="_0PhPJIAXEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_0PhPJYAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0PhPJoAXEeycjqFks8KX-A" name="time">
+        <modelElement href="discreteBehaviorSimulator.uml#_0Lqp4YAXEeycjqFks8KX-A"/>
+        <cardinality xmi:id="_0PhPJ4AXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+        <type xmi:id="_0PhPKIAXEeycjqFks8KX-A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0PhPKYAXEeycjqFks8KX-A" name="nextClockChange">
+      <modelElement href="discreteBehaviorSimulator.uml#_0Lqp4oAXEeycjqFks8KX-A"/>
+      <visibility xmi:id="_0PhPKoAXEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_0PhPK4AXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0PhPLIAXEeycjqFks8KX-A" name="nextJump">
+        <modelElement href="discreteBehaviorSimulator.uml#_0Lqp44AXEeycjqFks8KX-A"/>
+        <cardinality xmi:id="_0PhPLYAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+        <type xmi:id="_0PhPLoAXEeycjqFks8KX-A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0Poj8oAXEeycjqFks8KX-A" comments="_0PlgkIAXEeycjqFks8KX-A" targetConnectionVisual="_0PlgkYAXEeycjqFks8KX-A" name="DiscreteActionSimulator" associationsOut="_0PjEUIAXEeycjqFks8KX-A _0PnVwIAXEeycjqFks8KX-A _0Pn80IAXEeycjqFks8KX-A _0Pn82YAXEeycjqFks8KX-A _0Poj4IAXEeycjqFks8KX-A _0Poj6YAXEeycjqFks8KX-A">
+    <modelElement href="discreteBehaviorSimulator.uml#_0Lqp5IAXEeycjqFks8KX-A"/>
+    <visualProperties xmi:id="_0Poj84AXEeycjqFks8KX-A" position="-438.0,384.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_0Poj9IAXEeycjqFks8KX-A" label="+"/>
+    <attributes xmi:id="_0Poj9YAXEeycjqFks8KX-A" name="t">
+      <modelElement href="discreteBehaviorSimulator.uml#_0MUxM4AXEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_0Poj9oAXEeycjqFks8KX-A" name="LegacyStyledElement">
+        <modelElement href="discreteBehaviorSimulator.uml#_0MVYQIAXEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_0Poj94AXEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_0Poj-IAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <type xmi:id="_0Poj-YAXEeycjqFks8KX-A" name="Thread">
+        <modelElement href="discreteBehaviorSimulator.uml#_0MQfwYAXEeycjqFks8KX-A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0Poj-oAXEeycjqFks8KX-A" defaultValue="false" name="running">
+      <modelElement href="discreteBehaviorSimulator.uml#_0MVYQYAXEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_0Poj-4AXEeycjqFks8KX-A" name="LegacyStyledElement">
+        <modelElement href="discreteBehaviorSimulator.uml#_0MVYQoAXEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_0Poj_IAXEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_0Poj_YAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <type xmi:id="_0Poj_oAXEeycjqFks8KX-A" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0Poj_4AXEeycjqFks8KX-A" name="globalTime">
+      <modelElement href="discreteBehaviorSimulator.uml#_0MVYRoAXEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_0PokAIAXEeycjqFks8KX-A" name="LegacyStyledElement">
+        <modelElement href="discreteBehaviorSimulator.uml#_0MV_UIAXEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_0PokAYAXEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_0PokAoAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <type xmi:id="_0PokA4AXEeycjqFks8KX-A" name="Clock">
+        <modelElement href="discreteBehaviorSimulator.uml#_0Lm_gIAXEeycjqFks8KX-A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0PokBIAXEeycjqFks8KX-A" defaultValue="new Vector&lt;>()" name="actionsList">
+      <modelElement href="discreteBehaviorSimulator.uml#_0MV_UYAXEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_0PokBYAXEeycjqFks8KX-A" name="Generics">
+        <modelElement href="discreteBehaviorSimulator.uml#_0MV_UoAXEeycjqFks8KX-A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0PokBoAXEeycjqFks8KX-A" name="LegacyStyledElement">
+        <modelElement href="discreteBehaviorSimulator.uml#_0MWmYIAXEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_0PokB4AXEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_0PokCIAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <type xmi:id="_0PokCYAXEeycjqFks8KX-A" name="Vector">
+        <modelElement href="discreteBehaviorSimulator.uml#_0MJLA4AXEeycjqFks8KX-A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0PokCoAXEeycjqFks8KX-A" name="nbLoop">
+      <modelElement href="discreteBehaviorSimulator.uml#_0MWmYYAXEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_0PokC4AXEeycjqFks8KX-A" name="LegacyStyledElement">
+        <modelElement href="discreteBehaviorSimulator.uml#_0MWmYoAXEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_0PokDIAXEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_0PokDYAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <type xmi:id="_0PokDoAXEeycjqFks8KX-A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0PokD4AXEeycjqFks8KX-A" name="step">
+      <modelElement href="discreteBehaviorSimulator.uml#_0MWmY4AXEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_0PokEIAXEeycjqFks8KX-A" name="LegacyStyledElement">
+        <modelElement href="discreteBehaviorSimulator.uml#_0MWmZIAXEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_0PokEYAXEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_0PokEoAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <type xmi:id="_0PokE4AXEeycjqFks8KX-A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0PokFIAXEeycjqFks8KX-A" name="logger">
+      <modelElement href="discreteBehaviorSimulator.uml#_0MXNcIAXEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_0PokFYAXEeycjqFks8KX-A" name="LegacyStyledElement">
+        <modelElement href="discreteBehaviorSimulator.uml#_0MXNcYAXEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_0PokFoAXEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_0PokF4AXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <type xmi:id="_0PokGIAXEeycjqFks8KX-A" name="Logger">
+        <modelElement href="discreteBehaviorSimulator.uml#_0MKZI4AXEeycjqFks8KX-A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0PokGYAXEeycjqFks8KX-A" name="logFile">
+      <modelElement href="discreteBehaviorSimulator.uml#_0MXNcoAXEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_0PokGoAXEeycjqFks8KX-A" name="LegacyStyledElement">
+        <modelElement href="discreteBehaviorSimulator.uml#_0MXNc4AXEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_0PokG4AXEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_0PokHIAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <type xmi:id="_0PokHYAXEeycjqFks8KX-A" name="FileHandler">
+        <modelElement href="discreteBehaviorSimulator.uml#_0MJyE4AXEeycjqFks8KX-A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0PokHoAXEeycjqFks8KX-A" name="logConsole">
+      <modelElement href="discreteBehaviorSimulator.uml#_0MXNdIAXEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_0PokH4AXEeycjqFks8KX-A" name="LegacyStyledElement">
+        <modelElement href="discreteBehaviorSimulator.uml#_0MX0gIAXEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_0PokIIAXEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_0PokIYAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <type xmi:id="_0PokIoAXEeycjqFks8KX-A" name="ConsoleHandler">
+        <modelElement href="discreteBehaviorSimulator.uml#_0MJyEYAXEeycjqFks8KX-A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_0PokI4AXEeycjqFks8KX-A" name="DiscreteActionSimulator">
+      <modelElement href="discreteBehaviorSimulator.uml#_0LrQ8IAXEeycjqFks8KX-A"/>
+      <keywords xmi:id="_0PokJIAXEeycjqFks8KX-A" keyword="create"/>
+      <visibility xmi:id="_0PokJYAXEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_0PokJoAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0PokJ4AXEeycjqFks8KX-A">
+        <modelElement href="discreteBehaviorSimulator.uml#_0LrQ84AXEeycjqFks8KX-A"/>
+        <type xmi:id="_0PokKIAXEeycjqFks8KX-A" name="DiscreteActionSimulator">
+          <modelElement href="discreteBehaviorSimulator.uml#_0Lqp5IAXEeycjqFks8KX-A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_0PokKYAXEeycjqFks8KX-A" comments="_0PmHoIAXEeycjqFks8KX-A" targetConnectionVisual="_0PmHoYAXEeycjqFks8KX-A" name="setNbLoop">
+      <modelElement href="discreteBehaviorSimulator.uml#_0Lr4AIAXEeycjqFks8KX-A"/>
+      <visibility xmi:id="_0PokKoAXEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_0PokK4AXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0PokLIAXEeycjqFks8KX-A" name="nbLoop">
+        <modelElement href="discreteBehaviorSimulator.uml#_0Lr4AYAXEeycjqFks8KX-A"/>
+        <cardinality xmi:id="_0PokLYAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+        <type xmi:id="_0PokLoAXEeycjqFks8KX-A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0PokL4AXEeycjqFks8KX-A" comments="_0PmHooAXEeycjqFks8KX-A" targetConnectionVisual="_0PmHo4AXEeycjqFks8KX-A" name="nextLapsTime">
+      <modelElement href="discreteBehaviorSimulator.uml#_0Lr4AoAXEeycjqFks8KX-A"/>
+      <visibility xmi:id="_0PokMIAXEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_0PokMYAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0PokMoAXEeycjqFks8KX-A">
+        <modelElement href="discreteBehaviorSimulator.uml#_0Lr4A4AXEeycjqFks8KX-A"/>
+        <type xmi:id="_0PokM4AXEeycjqFks8KX-A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_0PokNIAXEeycjqFks8KX-A" comments="_0PmHpIAXEeycjqFks8KX-A" targetConnectionVisual="_0PmHpYAXEeycjqFks8KX-A" name="runAction">
+      <modelElement href="discreteBehaviorSimulator.uml#_0Lr4BIAXEeycjqFks8KX-A"/>
+      <visibility xmi:id="_0PokNYAXEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_0PokNoAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0PokN4AXEeycjqFks8KX-A">
+        <modelElement href="discreteBehaviorSimulator.uml#_0Lr4BYAXEeycjqFks8KX-A"/>
+        <type xmi:id="_0PokOIAXEeycjqFks8KX-A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_0PokOYAXEeycjqFks8KX-A" name="updateTimes">
+      <modelElement href="discreteBehaviorSimulator.uml#_0Lr4BoAXEeycjqFks8KX-A"/>
+      <visibility xmi:id="_0PokOoAXEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_0PokO4AXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0PokPIAXEeycjqFks8KX-A" name="runningTimeOf1stCapsul">
+        <modelElement href="discreteBehaviorSimulator.uml#_0Lr4B4AXEeycjqFks8KX-A"/>
+        <cardinality xmi:id="_0PokPYAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+        <type xmi:id="_0PokPoAXEeycjqFks8KX-A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0PokP4AXEeycjqFks8KX-A" name="run">
+      <modelElement href="discreteBehaviorSimulator.uml#_0Lr4CIAXEeycjqFks8KX-A"/>
+      <visibility xmi:id="_0PokQIAXEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_0PokQYAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_0PokQoAXEeycjqFks8KX-A" name="start">
+      <modelElement href="discreteBehaviorSimulator.uml#_0LsfEIAXEeycjqFks8KX-A"/>
+      <visibility xmi:id="_0PokQ4AXEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_0PokRIAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_0PokRYAXEeycjqFks8KX-A" name="stop">
+      <modelElement href="discreteBehaviorSimulator.uml#_0LsfEYAXEeycjqFks8KX-A"/>
+      <visibility xmi:id="_0PokRoAXEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_0PokR4AXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_0PokSIAXEeycjqFks8KX-A" name="toString">
+      <modelElement href="discreteBehaviorSimulator.uml#_0LsfEoAXEeycjqFks8KX-A"/>
+      <visibility xmi:id="_0PokSYAXEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_0PokSoAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0PokS4AXEeycjqFks8KX-A">
+        <modelElement href="discreteBehaviorSimulator.uml#_0LsfE4AXEeycjqFks8KX-A"/>
+        <type xmi:id="_0PokTIAXEeycjqFks8KX-A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_0PokTYAXEeycjqFks8KX-A" name="addAction">
+      <modelElement href="discreteBehaviorSimulator.uml#_0MRG0IAXEeycjqFks8KX-A"/>
+      <visibility xmi:id="_0PokToAXEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_0PokT4AXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0PokUIAXEeycjqFks8KX-A" name="c">
+        <modelElement href="discreteBehaviorSimulator.uml#_0MRG0YAXEeycjqFks8KX-A"/>
+        <cardinality xmi:id="_0PokUYAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+        <type xmi:id="_0PokUoAXEeycjqFks8KX-A" name="DiscreteActionInterface">
+          <modelElement href="discreteBehaviorSimulator.uml#_0MLAM4AXEeycjqFks8KX-A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0PuDcIAXEeycjqFks8KX-A" comments="_0Ps1UIAXEeycjqFks8KX-A" targetConnectionVisual="_0PtcYIAXEeycjqFks8KX-A" name="LogFormatter">
+    <modelElement href="discreteBehaviorSimulator.uml#_0LttMIAXEeycjqFks8KX-A"/>
+    <visualProperties xmi:id="_0PuDcYAXEeycjqFks8KX-A" position="433.0,-47.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_0PuDcoAXEeycjqFks8KX-A" label="+"/>
+    <operations xmi:id="_0PuDc4AXEeycjqFks8KX-A" name="calcDate">
+      <modelElement href="discreteBehaviorSimulator.uml#_0LttMYAXEeycjqFks8KX-A"/>
+      <visibility xmi:id="_0PuDdIAXEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_0PuDdYAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0PuDdoAXEeycjqFks8KX-A">
+        <modelElement href="discreteBehaviorSimulator.uml#_0LuUQIAXEeycjqFks8KX-A"/>
+        <type xmi:id="_0PuDd4AXEeycjqFks8KX-A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0PuDeIAXEeycjqFks8KX-A" name="millisecs">
+        <modelElement href="discreteBehaviorSimulator.uml#_0LttMoAXEeycjqFks8KX-A"/>
+        <cardinality xmi:id="_0PuDeYAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+        <type xmi:id="_0PuDeoAXEeycjqFks8KX-A" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0PuDe4AXEeycjqFks8KX-A" name="format">
+      <modelElement href="discreteBehaviorSimulator.uml#_0MRt4IAXEeycjqFks8KX-A"/>
+      <visibility xmi:id="_0PuDfIAXEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_0PuDfYAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0PuDfoAXEeycjqFks8KX-A">
+        <modelElement href="discreteBehaviorSimulator.uml#_0MRt4oAXEeycjqFks8KX-A"/>
+        <type xmi:id="_0PuDf4AXEeycjqFks8KX-A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0PuDgIAXEeycjqFks8KX-A" name="rec">
+        <modelElement href="discreteBehaviorSimulator.uml#_0MRt4YAXEeycjqFks8KX-A"/>
+        <cardinality xmi:id="_0PuDgYAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+        <type xmi:id="_0PuDgoAXEeycjqFks8KX-A" name="LogRecord">
+          <modelElement href="discreteBehaviorSimulator.uml#_0MNccoAXEeycjqFks8KX-A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0PuDg4AXEeycjqFks8KX-A" name="getHead">
+      <modelElement href="discreteBehaviorSimulator.uml#_0MRt44AXEeycjqFks8KX-A"/>
+      <visibility xmi:id="_0PuDhIAXEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_0PuDhYAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0PuDhoAXEeycjqFks8KX-A">
+        <modelElement href="discreteBehaviorSimulator.uml#_0MSU8YAXEeycjqFks8KX-A"/>
+        <type xmi:id="_0PuDh4AXEeycjqFks8KX-A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0PuDiIAXEeycjqFks8KX-A" name="h">
+        <modelElement href="discreteBehaviorSimulator.uml#_0MSU8IAXEeycjqFks8KX-A"/>
+        <cardinality xmi:id="_0PuDiYAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+        <type xmi:id="_0PuDioAXEeycjqFks8KX-A" name="Handler">
+          <modelElement href="discreteBehaviorSimulator.uml#_0MNccIAXEeycjqFks8KX-A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0PuDi4AXEeycjqFks8KX-A" name="getTail">
+      <modelElement href="discreteBehaviorSimulator.uml#_0MSU8oAXEeycjqFks8KX-A"/>
+      <visibility xmi:id="_0PuDjIAXEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_0PuDjYAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0PuDjoAXEeycjqFks8KX-A">
+        <modelElement href="discreteBehaviorSimulator.uml#_0MSU9IAXEeycjqFks8KX-A"/>
+        <type xmi:id="_0PuDj4AXEeycjqFks8KX-A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0PuDkIAXEeycjqFks8KX-A" name="h">
+        <modelElement href="discreteBehaviorSimulator.uml#_0MSU84AXEeycjqFks8KX-A"/>
+        <cardinality xmi:id="_0PuDkYAXEeycjqFks8KX-A" label="1" max="1" min="1"/>
+        <type xmi:id="_0PuDkoAXEeycjqFks8KX-A" name="Handler">
+          <modelElement href="discreteBehaviorSimulator.uml#_0MNccIAXEeycjqFks8KX-A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

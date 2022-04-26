@@ -1,0 +1,1162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_Hn4yAIAYEeycjqFks8KX-A">
+  <modelElement href="timerBehaviorSimulation.uml#_HxYFMIAYEeycjqFks8KX-A"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Ii3MgIAYEeycjqFks8KX-A" source="_Ii3MkoAYEeycjqFks8KX-A">
+    <modelElement href="timerBehaviorSimulation.uml#_Hyk_EIAYEeycjqFks8KX-A"/>
+    <stereotypes xmi:id="_Ii3MgYAYEeycjqFks8KX-A" name="Reference">
+      <modelElement href="timerBehaviorSimulation.uml#_Hyk_EoAYEeycjqFks8KX-A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Ii3MgoAYEeycjqFks8KX-A" text=""/>
+    <sourceRole xmi:id="_Ii3Mg4AYEeycjqFks8KX-A" aggregationKind="NONE" name="">
+      <modelElement href="timerBehaviorSimulation.uml#_Hyk_EYAYEeycjqFks8KX-A"/>
+      <visibility xmi:id="_Ii3MhIAYEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_Ii3MhYAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Ii3MhoAYEeycjqFks8KX-A" aggregationKind="NONE" name="lapsTimes" navigable="true">
+      <modelElement href="timerBehaviorSimulation.uml#_HyZ_8IAYEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_WLehgLwUEey47fel29Tb-A" name="Generics">
+        <modelElement href="timerBehaviorSimulation.uml#_HyanAIAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WLehgbwUEey47fel29Tb-A" name="LegacyStyledElement">
+        <modelElement href="timerBehaviorSimulation.uml#_HyanAYAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_Ii3Mh4AYEeycjqFks8KX-A" label="~"/>
+      <cardinality xmi:id="_Ii3MiIAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Ii3MiYAYEeycjqFks8KX-A" source="_Ii3MkoAYEeycjqFks8KX-A">
+    <modelElement href="timerBehaviorSimulation.uml#_HylmIIAYEeycjqFks8KX-A"/>
+    <stereotypes xmi:id="_Ii3MioAYEeycjqFks8KX-A" name="Reference">
+      <modelElement href="timerBehaviorSimulation.uml#_HylmIoAYEeycjqFks8KX-A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Ii3Mi4AYEeycjqFks8KX-A" text=""/>
+    <sourceRole xmi:id="_Ii3MjIAYEeycjqFks8KX-A" aggregationKind="NONE" name="">
+      <modelElement href="timerBehaviorSimulation.uml#_HylmIYAYEeycjqFks8KX-A"/>
+      <visibility xmi:id="_Ii3MjYAYEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_Ii3MjoAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Ii3Mj4AYEeycjqFks8KX-A" aggregationKind="NONE" name="it" navigable="true">
+      <modelElement href="timerBehaviorSimulation.uml#_HyanAoAYEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_WLehgrwUEey47fel29Tb-A" name="Generics">
+        <modelElement href="timerBehaviorSimulation.uml#_HybOEIAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WLehg7wUEey47fel29Tb-A" name="LegacyStyledElement">
+        <modelElement href="timerBehaviorSimulation.uml#_HybOEYAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_Ii3MkIAYEeycjqFks8KX-A" label="~"/>
+      <cardinality xmi:id="_Ii3MkYAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Ii5owIAYEeycjqFks8KX-A" sourceAnchor="173.0,0.0" targetAnchor="86.0,85.0" dashed="true" superClass="_IjLVkIAYEeycjqFks8KX-A" subClass="_Ii3MkoAYEeycjqFks8KX-A">
+    <modelElement href="timerBehaviorSimulation.uml#_HyQO9IAYEeycjqFks8KX-A"/>
+    <bendpoints xmi:id="_JdSNYIAYEeycjqFks8KX-A" sourceY="-142" targetX="551" targetY="28"/>
+    <bendpoints xmi:id="_JdSNYYAYEeycjqFks8KX-A" sourceX="-551" sourceY="-142" targetY="28"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Ii5owYAYEeycjqFks8KX-A" sourceAnchor="217.0,0.0" targetAnchor="86.0,85.0" dashed="true" superClass="_IjLVkIAYEeycjqFks8KX-A" subClass="_Ii625IAYEeycjqFks8KX-A">
+    <modelElement href="timerBehaviorSimulation.uml#_HyQ2AIAYEeycjqFks8KX-A"/>
+    <bendpoints xmi:id="_JdSNYoAYEeycjqFks8KX-A" sourceY="-195" targetX="72" targetY="28"/>
+    <bendpoints xmi:id="_JdSNY4AYEeycjqFks8KX-A" sourceX="-72" sourceY="-195" targetY="28"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Ii5owoAYEeycjqFks8KX-A" sourceAnchor="175.0,0.0" targetAnchor="116.0,85.0" target="_IjLVkIAYEeycjqFks8KX-A" source="_Ii625IAYEeycjqFks8KX-A">
+    <modelElement href="timerBehaviorSimulation.uml#_HylmI4AYEeycjqFks8KX-A"/>
+    <stereotypes xmi:id="_Ii6P1YAYEeycjqFks8KX-A" name="Reference">
+      <modelElement href="timerBehaviorSimulation.uml#_HylmJYAYEeycjqFks8KX-A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Ii6P0oAYEeycjqFks8KX-A" text="">
+      <visualProperties xmi:id="_JdS0eIAYEeycjqFks8KX-A" position="-32.51336581187741,87.29745004534283"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Ii6P04AYEeycjqFks8KX-A" aggregationKind="NONE" name="">
+      <modelElement href="timerBehaviorSimulation.uml#_HylmJIAYEeycjqFks8KX-A"/>
+      <visualProperties xmi:id="_JdS0d4AYEeycjqFks8KX-A" position="-17.8196581049815,-81.71373587942597"/>
+      <visibility xmi:id="_Ii6P24AYEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_Ii6P2oAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Ii6P1IAYEeycjqFks8KX-A" aggregationKind="NONE" name="timer1" navigable="true">
+      <modelElement href="timerBehaviorSimulation.uml#_HybOEoAYEeycjqFks8KX-A"/>
+      <visualProperties xmi:id="_JdTbgIAYEeycjqFks8KX-A" position="-39.62595039808565,209.331515130701"/>
+      <stereotypes xmi:id="_WLfIkLwUEey47fel29Tb-A" name="LegacyStyledElement">
+        <modelElement href="timerBehaviorSimulation.uml#_Hyb1IIAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_Ii6P3YAYEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_Ii6P3IAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Ii5ow4AYEeycjqFks8KX-A" sourceAnchor="115.0,0.0" targetAnchor="56.0,85.0" target="_IjLVkIAYEeycjqFks8KX-A" source="_Ii625IAYEeycjqFks8KX-A">
+    <modelElement href="timerBehaviorSimulation.uml#_HylmJoAYEeycjqFks8KX-A"/>
+    <stereotypes xmi:id="_Ii6P2YAYEeycjqFks8KX-A" name="Reference">
+      <modelElement href="timerBehaviorSimulation.uml#_HymNMIAYEeycjqFks8KX-A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Ii6P1oAYEeycjqFks8KX-A" text="">
+      <visualProperties xmi:id="_JdTbgoAYEeycjqFks8KX-A" position="-32.51336581187741,87.29745004534283"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Ii6P14AYEeycjqFks8KX-A" aggregationKind="NONE" name="">
+      <modelElement href="timerBehaviorSimulation.uml#_HylmJ4AYEeycjqFks8KX-A"/>
+      <visualProperties xmi:id="_JdTbgYAYEeycjqFks8KX-A" position="-17.8196581049815,-81.71373587942597"/>
+      <visibility xmi:id="_Ii624IAYEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_Ii6P34AYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Ii6P2IAYEeycjqFks8KX-A" aggregationKind="NONE" name="timer2" navigable="true">
+      <modelElement href="timerBehaviorSimulation.uml#_Hyb1IYAYEeycjqFks8KX-A"/>
+      <visualProperties xmi:id="_JdTbg4AYEeycjqFks8KX-A" position="-39.62595039808565,209.331515130701"/>
+      <stereotypes xmi:id="_WLfIkbwUEey47fel29Tb-A" name="LegacyStyledElement">
+        <modelElement href="timerBehaviorSimulation.uml#_Hyb1IoAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_Ii624oAYEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_Ii624YAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Ii5oxIAYEeycjqFks8KX-A" subClass="_IjLVkIAYEeycjqFks8KX-A">
+    <modelElement href="timerBehaviorSimulation.uml#_HyZY4IAYEeycjqFks8KX-A"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Ii6P0YAYEeycjqFks8KX-A" targetItem="_IjLVk4AYEeycjqFks8KX-A" sourceItem="_Ii6P0IAYEeycjqFks8KX-A"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Ii7d8IAYEeycjqFks8KX-A" sourceAnchor="159.0,0.0" targetAnchor="86.0,85.0" dashed="true" superClass="_IjLVkIAYEeycjqFks8KX-A" subClass="_Ii8FAIAYEeycjqFks8KX-A">
+    <modelElement href="timerBehaviorSimulation.uml#_HyRdFoAYEeycjqFks8KX-A"/>
+    <bendpoints xmi:id="_JdSNZIAYEeycjqFks8KX-A" sourceY="-142" targetX="-377" targetY="28"/>
+    <bendpoints xmi:id="_JdSNZYAYEeycjqFks8KX-A" sourceX="377" sourceY="-142" targetY="28"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Ii9TIIAYEeycjqFks8KX-A" sourceAnchor="236.0,0.0" targetAnchor="86.0,85.0" dashed="true" superClass="_IjLVkIAYEeycjqFks8KX-A" subClass="_Ii_IUIAYEeycjqFks8KX-A">
+    <modelElement href="timerBehaviorSimulation.uml#_HySEIIAYEeycjqFks8KX-A"/>
+    <bendpoints xmi:id="_JdS0cIAYEeycjqFks8KX-A" sourceY="-719" targetX="363" targetY="28"/>
+    <bendpoints xmi:id="_JdS0cYAYEeycjqFks8KX-A" sourceX="-363" sourceY="-719" targetY="28"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Ii-hQIAYEeycjqFks8KX-A" sourceAnchor="607.0,23.0" targetAnchor="0.0,446.0" target="_IjCysIAYEeycjqFks8KX-A" source="_Ii_IUIAYEeycjqFks8KX-A">
+    <modelElement href="timerBehaviorSimulation.uml#_HymNMYAYEeycjqFks8KX-A"/>
+    <stereotypes xmi:id="_Ii-hQYAYEeycjqFks8KX-A" name="Reference">
+      <modelElement href="timerBehaviorSimulation.uml#_HymNM4AYEeycjqFks8KX-A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Ii-hQoAYEeycjqFks8KX-A" text="">
+      <visualProperties xmi:id="_JdUCkYAYEeycjqFks8KX-A" position="60.41330245603382,-20.0277035246105"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Ii-hQ4AYEeycjqFks8KX-A" aggregationKind="NONE" name="">
+      <modelElement href="timerBehaviorSimulation.uml#_HymNMoAYEeycjqFks8KX-A"/>
+      <visualProperties xmi:id="_JdUCkIAYEeycjqFks8KX-A" position="40.805411342392176,-39.111943637578065"/>
+      <visibility xmi:id="_Ii-hRIAYEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_Ii-hRYAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Ii-hRoAYEeycjqFks8KX-A" aggregationKind="NONE" name="moreOrLess" navigable="true">
+      <modelElement href="timerBehaviorSimulation.uml#_HydDQIAYEeycjqFks8KX-A"/>
+      <visualProperties xmi:id="_JdUCkoAYEeycjqFks8KX-A" position="54.9804789579523,-39.052535818889055"/>
+      <stereotypes xmi:id="_WLfIkrwUEey47fel29Tb-A" name="LegacyStyledElement">
+        <modelElement href="timerBehaviorSimulation.uml#_HydDQoAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_Ii-hR4AYEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_Ii-hSIAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_IjA9gIAYEeycjqFks8KX-A" sourceAnchor="321.0,0.0" targetAnchor="86.0,85.0" dashed="true" superClass="_IjLVkIAYEeycjqFks8KX-A" subClass="_IjCysIAYEeycjqFks8KX-A">
+    <modelElement href="timerBehaviorSimulation.uml#_HyTSRIAYEeycjqFks8KX-A"/>
+    <bendpoints xmi:id="_JdS0coAYEeycjqFks8KX-A" sourceY="-296" targetX="1119" targetY="28"/>
+    <bendpoints xmi:id="_JdS0c4AYEeycjqFks8KX-A" sourceX="-1119" sourceY="-296" targetY="28"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_IjCLoIAYEeycjqFks8KX-A" source="_IjCysIAYEeycjqFks8KX-A">
+    <modelElement href="timerBehaviorSimulation.uml#_HymNNIAYEeycjqFks8KX-A"/>
+    <stereotypes xmi:id="_IjCLoYAYEeycjqFks8KX-A" name="Reference">
+      <modelElement href="timerBehaviorSimulation.uml#_HymNNoAYEeycjqFks8KX-A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_IjCLooAYEeycjqFks8KX-A" text=""/>
+    <sourceRole xmi:id="_IjCLo4AYEeycjqFks8KX-A" aggregationKind="NONE" name="">
+      <modelElement href="timerBehaviorSimulation.uml#_HymNNYAYEeycjqFks8KX-A"/>
+      <visibility xmi:id="_IjCLpIAYEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_IjCLpYAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_IjCLpoAYEeycjqFks8KX-A" aggregationKind="NONE" name="r" navigable="true">
+      <modelElement href="timerBehaviorSimulation.uml#_HydDQ4AYEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_WLfIk7wUEey47fel29Tb-A" name="LegacyStyledElement">
+        <modelElement href="timerBehaviorSimulation.uml#_HydqUIAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_IjCLp4AYEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_IjCLqIAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_IjHrMIAYEeycjqFks8KX-A" sourceAnchor="310.0,0.0" targetAnchor="0.0,43.0" target="_IjLVkIAYEeycjqFks8KX-A" source="_IjI5VYAYEeycjqFks8KX-A">
+    <modelElement href="timerBehaviorSimulation.uml#_HymNN4AYEeycjqFks8KX-A"/>
+    <bendpoints xmi:id="_JdS0dIAYEeycjqFks8KX-A" sourceY="-97" targetX="-932"/>
+    <stereotypes xmi:id="_IjHrNYAYEeycjqFks8KX-A" name="Reference">
+      <modelElement href="timerBehaviorSimulation.uml#_Hym0QIAYEeycjqFks8KX-A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_IjHrMoAYEeycjqFks8KX-A" text="">
+      <visualProperties xmi:id="_JdUClIAYEeycjqFks8KX-A" position="-18.33887478668612,-5.84957653596183"/>
+    </nameVisual>
+    <sourceRole xmi:id="_IjHrM4AYEeycjqFks8KX-A" aggregationKind="NONE" name="">
+      <modelElement href="timerBehaviorSimulation.uml#_HymNOIAYEeycjqFks8KX-A"/>
+      <visualProperties xmi:id="_JdUCk4AYEeycjqFks8KX-A" position="-0.4601517633709591,-69.03487352940061"/>
+      <visibility xmi:id="_IjI5UYAYEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_IjI5UIAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_IjHrNIAYEeycjqFks8KX-A" aggregationKind="NONE" name="timer2bound" navigable="true">
+      <modelElement href="timerBehaviorSimulation.uml#_HyffgIAYEeycjqFks8KX-A"/>
+      <visualProperties xmi:id="_JdUClYAYEeycjqFks8KX-A" position="-975.4503006223026,-75.12706480960873"/>
+      <stereotypes xmi:id="_WLfIlLwUEey47fel29Tb-A" name="LegacyStyledElement">
+        <modelElement href="timerBehaviorSimulation.uml#_HyffgYAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_IjI5U4AYEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_IjI5UoAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_IjHrMYAYEeycjqFks8KX-A" sourceAnchor="340.0,0.0" targetAnchor="86.0,85.0" dashed="true" superClass="_IjLVkIAYEeycjqFks8KX-A" subClass="_IjI5VYAYEeycjqFks8KX-A">
+    <modelElement href="timerBehaviorSimulation.uml#_HyVHcIAYEeycjqFks8KX-A"/>
+    <bendpoints xmi:id="_JdS0dYAYEeycjqFks8KX-A" sourceY="-27" targetX="-988" targetY="28"/>
+    <bendpoints xmi:id="_JdS0doAYEeycjqFks8KX-A" sourceX="988" sourceY="-27" targetY="28"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ZMrosLwUEey47fel29Tb-A" targetItem="_IjCysIAYEeycjqFks8KX-A" sourceItem="_ZMbxELwUEey47fel29Tb-A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ZNdEwbwUEey47fel29Tb-A" targetItem="_IjCy6YAYEeycjqFks8KX-A" sourceItem="_ZNdEwLwUEey47fel29Tb-A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ZOHzILwUEey47fel29Tb-A" targetItem="_IjCy7oAYEeycjqFks8KX-A" sourceItem="_ZOHMELwUEey47fel29Tb-A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ZO2y8LwUEey47fel29Tb-A" targetItem="_IjCy84AYEeycjqFks8KX-A" sourceItem="_ZO2L4LwUEey47fel29Tb-A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ZPzOILwUEey47fel29Tb-A" targetItem="_IjCzDIAYEeycjqFks8KX-A" sourceItem="_ZPpdILwUEey47fel29Tb-A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ZQ1I4LwUEey47fel29Tb-A" targetItem="_IjCzGIAYEeycjqFks8KX-A" sourceItem="_ZQrX4LwUEey47fel29Tb-A"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Ii6P0IAYEeycjqFks8KX-A" sourceConnectionVisual="_Ii6P0YAYEeycjqFks8KX-A" text="return the delay time&#xA;&#x9; * @see java.util.Iterator#next()" item="_IjLVk4AYEeycjqFks8KX-A">
+    <modelElement href="timerBehaviorSimulation.uml#_HyjJ5oAYEeycjqFks8KX-A"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Ii3MkoAYEeycjqFks8KX-A" name="DateTimer" associationsOut="_Ii3MgIAYEeycjqFks8KX-A _Ii3MiYAYEeycjqFks8KX-A" generalizations="_Ii5owIAYEeycjqFks8KX-A">
+    <modelElement href="timerBehaviorSimulation.uml#_Hxoj4IAYEeycjqFks8KX-A"/>
+    <visualProperties xmi:id="_Ii3Mk4AYEeycjqFks8KX-A" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Ii3MlIAYEeycjqFks8KX-A" label="+"/>
+    <attributes xmi:id="_Ii3MlYAYEeycjqFks8KX-A" name="lapsTimes">
+      <modelElement href="timerBehaviorSimulation.uml#_HyZ_8IAYEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_WLoSgLwUEey47fel29Tb-A" name="Generics"/>
+      <stereotypes xmi:id="_WLo5kLwUEey47fel29Tb-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WLpgoLwUEey47fel29Tb-A" name="Generics"/>
+      <stereotypes xmi:id="_WLpgobwUEey47fel29Tb-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WLuZIbwUEey47fel29Tb-A" name="Generics"/>
+      <stereotypes xmi:id="_WLvAMLwUEey47fel29Tb-A" name="LegacyStyledElement"/>
+      <visibility xmi:id="_Ii3MmIAYEeycjqFks8KX-A" label="~"/>
+      <cardinality xmi:id="_Ii3MmYAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <type xmi:id="_Ii3MmoAYEeycjqFks8KX-A" name="Vector">
+        <modelElement href="timerBehaviorSimulation.uml#_HyQO8oAYEeycjqFks8KX-A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Ii3Mm4AYEeycjqFks8KX-A" name="it">
+      <modelElement href="timerBehaviorSimulation.uml#_HyanAoAYEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_WLqHsLwUEey47fel29Tb-A" name="Generics"/>
+      <stereotypes xmi:id="_WLqHsbwUEey47fel29Tb-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WLrV0LwUEey47fel29Tb-A" name="Generics"/>
+      <stereotypes xmi:id="_WLrV0bwUEey47fel29Tb-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WLvnQLwUEey47fel29Tb-A" name="Generics"/>
+      <stereotypes xmi:id="_WLvnQbwUEey47fel29Tb-A" name="LegacyStyledElement"/>
+      <visibility xmi:id="_Ii3MnoAYEeycjqFks8KX-A" label="~"/>
+      <cardinality xmi:id="_Ii3Mn4AYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <type xmi:id="_Ii3MoIAYEeycjqFks8KX-A" name="Iterator">
+        <modelElement href="timerBehaviorSimulation.uml#_HyPn4IAYEeycjqFks8KX-A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Ii3MoYAYEeycjqFks8KX-A" name="hasNext">
+      <modelElement href="timerBehaviorSimulation.uml#_HxpK8IAYEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_Ii3MooAYEeycjqFks8KX-A" name="LegacyStyledElement">
+        <modelElement href="timerBehaviorSimulation.uml#_HxpyAYAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Ii3Mo4AYEeycjqFks8KX-A" name="Annotations">
+        <modelElement href="timerBehaviorSimulation.uml#_HxpyAoAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_Ii3MpIAYEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_Ii3MpYAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ii3MpoAYEeycjqFks8KX-A">
+        <modelElement href="timerBehaviorSimulation.uml#_HxpyAIAYEeycjqFks8KX-A"/>
+        <type xmi:id="_Ii3Mp4AYEeycjqFks8KX-A" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Ii3MqIAYEeycjqFks8KX-A" name="next">
+      <modelElement href="timerBehaviorSimulation.uml#_HxpyBIAYEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_Ii3MqYAYEeycjqFks8KX-A" name="LegacyStyledElement">
+        <modelElement href="timerBehaviorSimulation.uml#_HxqZEIAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Ii3MqoAYEeycjqFks8KX-A" name="Annotations">
+        <modelElement href="timerBehaviorSimulation.uml#_HxqZEYAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_Ii3Mq4AYEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_Ii3MrIAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ii3MrYAYEeycjqFks8KX-A">
+        <modelElement href="timerBehaviorSimulation.uml#_HxpyBYAYEeycjqFks8KX-A"/>
+        <type xmi:id="_Ii3MroAYEeycjqFks8KX-A" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Ii3Mr4AYEeycjqFks8KX-A" name="DateTimer">
+      <modelElement href="timerBehaviorSimulation.uml#_HyW8oIAYEeycjqFks8KX-A"/>
+      <keywords xmi:id="_Ii3MsIAYEeycjqFks8KX-A" keyword="create"/>
+      <visibility xmi:id="_Ii3MsYAYEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_Ii3MsoAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ii3Ms4AYEeycjqFks8KX-A">
+        <modelElement href="timerBehaviorSimulation.uml#_HyXjsYAYEeycjqFks8KX-A"/>
+        <type xmi:id="_Ii3MtIAYEeycjqFks8KX-A" name="DateTimer">
+          <modelElement href="timerBehaviorSimulation.uml#_Hxoj4IAYEeycjqFks8KX-A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Ii3MtYAYEeycjqFks8KX-A" name="dates">
+        <modelElement href="timerBehaviorSimulation.uml#_HyW8oYAYEeycjqFks8KX-A"/>
+        <cardinality xmi:id="_Ii3MtoAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+        <type xmi:id="_Ii3Mt4AYEeycjqFks8KX-A" name="TreeSet">
+          <modelElement href="timerBehaviorSimulation.uml#_HyQO8IAYEeycjqFks8KX-A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Ii3MuIAYEeycjqFks8KX-A" name="DateTimer">
+      <modelElement href="timerBehaviorSimulation.uml#_HyXjs4AYEeycjqFks8KX-A"/>
+      <keywords xmi:id="_Ii3MuYAYEeycjqFks8KX-A" keyword="create"/>
+      <visibility xmi:id="_Ii3MuoAYEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_Ii3Mu4AYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ii3MvIAYEeycjqFks8KX-A">
+        <modelElement href="timerBehaviorSimulation.uml#_HyXjt4AYEeycjqFks8KX-A"/>
+        <type xmi:id="_Ii3MvYAYEeycjqFks8KX-A" name="DateTimer">
+          <modelElement href="timerBehaviorSimulation.uml#_Hxoj4IAYEeycjqFks8KX-A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Ii3MvoAYEeycjqFks8KX-A" name="lapsTimes">
+        <modelElement href="timerBehaviorSimulation.uml#_HyXjtIAYEeycjqFks8KX-A"/>
+        <cardinality xmi:id="_Ii3Mv4AYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+        <type xmi:id="_Ii3MwIAYEeycjqFks8KX-A" name="Vector">
+          <modelElement href="timerBehaviorSimulation.uml#_HyQO8oAYEeycjqFks8KX-A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Ii625IAYEeycjqFks8KX-A" name="MergedTimer" associationsOut="_Ii5owoAYEeycjqFks8KX-A _Ii5ow4AYEeycjqFks8KX-A" generalizations="_Ii5owYAYEeycjqFks8KX-A">
+    <modelElement href="timerBehaviorSimulation.uml#_HxrAIIAYEeycjqFks8KX-A"/>
+    <visualProperties xmi:id="_Ii625YAYEeycjqFks8KX-A" position="-493.0,83.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Ii625oAYEeycjqFks8KX-A" label="+"/>
+    <attributes xmi:id="_Ii6254AYEeycjqFks8KX-A" name="timer1">
+      <modelElement href="timerBehaviorSimulation.uml#_HybOEoAYEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_WLrV0rwUEey47fel29Tb-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WLr84LwUEey47fel29Tb-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WLvnQrwUEey47fel29Tb-A" name="LegacyStyledElement"/>
+      <visibility xmi:id="_Ii626YAYEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_Ii626oAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <type xmi:id="_Ii6264AYEeycjqFks8KX-A" name="Timer">
+        <modelElement href="timerBehaviorSimulation.uml#_Hx30cIAYEeycjqFks8KX-A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Ii627IAYEeycjqFks8KX-A" name="timer2">
+      <modelElement href="timerBehaviorSimulation.uml#_Hyb1IYAYEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_WLr84bwUEey47fel29Tb-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WLsj8LwUEey47fel29Tb-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WLwOULwUEey47fel29Tb-A" name="LegacyStyledElement"/>
+      <visibility xmi:id="_Ii627oAYEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_Ii6274AYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <type xmi:id="_Ii628IAYEeycjqFks8KX-A" name="Timer">
+        <modelElement href="timerBehaviorSimulation.uml#_Hx30cIAYEeycjqFks8KX-A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Ii628YAYEeycjqFks8KX-A" name="hasNext">
+      <modelElement href="timerBehaviorSimulation.uml#_HxrnMIAYEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_Ii628oAYEeycjqFks8KX-A" name="LegacyStyledElement">
+        <modelElement href="timerBehaviorSimulation.uml#_HxrnMoAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Ii6284AYEeycjqFks8KX-A" name="Annotations">
+        <modelElement href="timerBehaviorSimulation.uml#_HxrnM4AYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_Ii629IAYEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_Ii629YAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ii629oAYEeycjqFks8KX-A">
+        <modelElement href="timerBehaviorSimulation.uml#_HxrnMYAYEeycjqFks8KX-A"/>
+        <type xmi:id="_Ii6294AYEeycjqFks8KX-A" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Ii62-IAYEeycjqFks8KX-A" name="next">
+      <modelElement href="timerBehaviorSimulation.uml#_HxsOQYAYEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_Ii62-YAYEeycjqFks8KX-A" name="LegacyStyledElement">
+        <modelElement href="timerBehaviorSimulation.uml#_HxsOQ4AYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Ii62-oAYEeycjqFks8KX-A" name="Annotations">
+        <modelElement href="timerBehaviorSimulation.uml#_HxsORIAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_Ii62-4AYEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_Ii62_IAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ii62_YAYEeycjqFks8KX-A">
+        <modelElement href="timerBehaviorSimulation.uml#_HxsOQoAYEeycjqFks8KX-A"/>
+        <type xmi:id="_Ii62_oAYEeycjqFks8KX-A" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Ii62_4AYEeycjqFks8KX-A" name="MergedTimer">
+      <modelElement href="timerBehaviorSimulation.uml#_HyRdEIAYEeycjqFks8KX-A"/>
+      <keywords xmi:id="_Ii63AIAYEeycjqFks8KX-A" keyword="create"/>
+      <visibility xmi:id="_Ii63AYAYEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_Ii63AoAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ii63A4AYEeycjqFks8KX-A">
+        <modelElement href="timerBehaviorSimulation.uml#_HyRdFYAYEeycjqFks8KX-A"/>
+        <type xmi:id="_Ii63BIAYEeycjqFks8KX-A" name="MergedTimer">
+          <modelElement href="timerBehaviorSimulation.uml#_HxrAIIAYEeycjqFks8KX-A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Ii63BYAYEeycjqFks8KX-A" name="timer1">
+        <modelElement href="timerBehaviorSimulation.uml#_HyRdEYAYEeycjqFks8KX-A"/>
+        <cardinality xmi:id="_Ii63BoAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+        <type xmi:id="_Ii63B4AYEeycjqFks8KX-A" name="Timer">
+          <modelElement href="timerBehaviorSimulation.uml#_Hx30cIAYEeycjqFks8KX-A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Ii63CIAYEeycjqFks8KX-A" name="timer2">
+        <modelElement href="timerBehaviorSimulation.uml#_HyRdEoAYEeycjqFks8KX-A"/>
+        <cardinality xmi:id="_Ii63CYAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+        <type xmi:id="_Ii63CoAYEeycjqFks8KX-A" name="Timer">
+          <modelElement href="timerBehaviorSimulation.uml#_Hx30cIAYEeycjqFks8KX-A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Ii8FAIAYEeycjqFks8KX-A" name="OneShotTimer" generalizations="_Ii7d8IAYEeycjqFks8KX-A">
+    <modelElement href="timerBehaviorSimulation.uml#_Hxs1UIAYEeycjqFks8KX-A"/>
+    <visualProperties xmi:id="_Ii8FAYAYEeycjqFks8KX-A" position="-884.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Ii8FAoAYEeycjqFks8KX-A" label="+"/>
+    <attributes xmi:id="_Ii8FA4AYEeycjqFks8KX-A" name="at">
+      <modelElement href="timerBehaviorSimulation.uml#_Hyb1I4AYEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_Ii8FBIAYEeycjqFks8KX-A" name="LegacyStyledElement">
+        <modelElement href="timerBehaviorSimulation.uml#_Hyb1JIAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_Ii8FBYAYEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_Ii8FBoAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <type xmi:id="_Ii8FB4AYEeycjqFks8KX-A" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Ii8FCIAYEeycjqFks8KX-A" name="hasNext">
+      <modelElement href="timerBehaviorSimulation.uml#_HyccMIAYEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_Ii8FCYAYEeycjqFks8KX-A" name="LegacyStyledElement">
+        <modelElement href="timerBehaviorSimulation.uml#_HyccMYAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_Ii8FCoAYEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_Ii8FC4AYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <type xmi:id="_Ii8FDIAYEeycjqFks8KX-A" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Ii8FDYAYEeycjqFks8KX-A" name="OneShotTimer">
+      <modelElement href="timerBehaviorSimulation.uml#_HxtcYIAYEeycjqFks8KX-A"/>
+      <keywords xmi:id="_Ii8FDoAYEeycjqFks8KX-A" keyword="create"/>
+      <visibility xmi:id="_Ii8FD4AYEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_Ii8FEIAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ii8FEYAYEeycjqFks8KX-A">
+        <modelElement href="timerBehaviorSimulation.uml#_HxtcZIAYEeycjqFks8KX-A"/>
+        <type xmi:id="_Ii8FEoAYEeycjqFks8KX-A" name="OneShotTimer">
+          <modelElement href="timerBehaviorSimulation.uml#_Hxs1UIAYEeycjqFks8KX-A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Ii8FE4AYEeycjqFks8KX-A" name="at">
+        <modelElement href="timerBehaviorSimulation.uml#_HxtcYYAYEeycjqFks8KX-A"/>
+        <cardinality xmi:id="_Ii8FFIAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+        <type xmi:id="_Ii8FFYAYEeycjqFks8KX-A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Ii8FFoAYEeycjqFks8KX-A" name="hasNext">
+      <modelElement href="timerBehaviorSimulation.uml#_HxtcZYAYEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_Ii8FF4AYEeycjqFks8KX-A" name="LegacyStyledElement">
+        <modelElement href="timerBehaviorSimulation.uml#_HxuDcIAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Ii8FGIAYEeycjqFks8KX-A" name="Annotations">
+        <modelElement href="timerBehaviorSimulation.uml#_HxuDcYAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_Ii8FGYAYEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_Ii8FGoAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ii8FG4AYEeycjqFks8KX-A">
+        <modelElement href="timerBehaviorSimulation.uml#_HxtcZoAYEeycjqFks8KX-A"/>
+        <type xmi:id="_Ii8FHIAYEeycjqFks8KX-A" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Ii8FHYAYEeycjqFks8KX-A" name="next">
+      <modelElement href="timerBehaviorSimulation.uml#_HxuDc4AYEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_Ii8FHoAYEeycjqFks8KX-A" name="LegacyStyledElement">
+        <modelElement href="timerBehaviorSimulation.uml#_HxuDdYAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Ii8FH4AYEeycjqFks8KX-A" name="Annotations">
+        <modelElement href="timerBehaviorSimulation.uml#_HxuqgIAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_Ii8FIIAYEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_Ii8FIYAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ii8FIoAYEeycjqFks8KX-A">
+        <modelElement href="timerBehaviorSimulation.uml#_HxuDdIAYEeycjqFks8KX-A"/>
+        <type xmi:id="_Ii8FI4AYEeycjqFks8KX-A" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Ii_IUIAYEeycjqFks8KX-A" name="PeriodicTimer" associationsOut="_Ii-hQIAYEeycjqFks8KX-A" generalizations="_Ii9TIIAYEeycjqFks8KX-A">
+    <modelElement href="timerBehaviorSimulation.uml#_HxuqgoAYEeycjqFks8KX-A"/>
+    <visualProperties xmi:id="_Ii_IUYAYEeycjqFks8KX-A" position="-221.0,607.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Ii_IUoAYEeycjqFks8KX-A" label="+"/>
+    <attributes xmi:id="_Ii_IU4AYEeycjqFks8KX-A" name="period">
+      <modelElement href="timerBehaviorSimulation.uml#_HyccMoAYEeycjqFks8KX-A"/>
+      <visibility xmi:id="_Ii_IVIAYEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_Ii_IVYAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <type xmi:id="_Ii_IVoAYEeycjqFks8KX-A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Ii_IV4AYEeycjqFks8KX-A" name="next">
+      <modelElement href="timerBehaviorSimulation.uml#_HyccM4AYEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_Ii_IWIAYEeycjqFks8KX-A" name="LegacyStyledElement">
+        <modelElement href="timerBehaviorSimulation.uml#_HyccNIAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_Ii_IWYAYEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_Ii_IWoAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <type xmi:id="_Ii_IW4AYEeycjqFks8KX-A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Ii_IXIAYEeycjqFks8KX-A" defaultValue="null" name="moreOrLess">
+      <modelElement href="timerBehaviorSimulation.uml#_HydDQIAYEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_WLsj8bwUEey47fel29Tb-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WLsj8rwUEey47fel29Tb-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WLxccLwUEey47fel29Tb-A" name="LegacyStyledElement"/>
+      <visibility xmi:id="_Ii_IXoAYEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_Ii_IX4AYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <type xmi:id="_Ii_IYIAYEeycjqFks8KX-A" name="RandomTimer">
+        <modelElement href="timerBehaviorSimulation.uml#_Hxxt0IAYEeycjqFks8KX-A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Ii_IYYAYEeycjqFks8KX-A" name="PeriodicTimer">
+      <modelElement href="timerBehaviorSimulation.uml#_HxvRkIAYEeycjqFks8KX-A"/>
+      <keywords xmi:id="_Ii_IYoAYEeycjqFks8KX-A" keyword="create"/>
+      <visibility xmi:id="_Ii_IY4AYEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_Ii_IZIAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ii_IZYAYEeycjqFks8KX-A">
+        <modelElement href="timerBehaviorSimulation.uml#_HxvRlIAYEeycjqFks8KX-A"/>
+        <type xmi:id="_Ii_IZoAYEeycjqFks8KX-A" name="PeriodicTimer">
+          <modelElement href="timerBehaviorSimulation.uml#_HxuqgoAYEeycjqFks8KX-A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Ii_IZ4AYEeycjqFks8KX-A" name="at">
+        <modelElement href="timerBehaviorSimulation.uml#_HxvRkYAYEeycjqFks8KX-A"/>
+        <cardinality xmi:id="_Ii_IaIAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+        <type xmi:id="_Ii_IaYAYEeycjqFks8KX-A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Ii_IaoAYEeycjqFks8KX-A" name="PeriodicTimer">
+      <modelElement href="timerBehaviorSimulation.uml#_Hxv4oIAYEeycjqFks8KX-A"/>
+      <keywords xmi:id="_Ii_Ia4AYEeycjqFks8KX-A" keyword="create"/>
+      <visibility xmi:id="_Ii_IbIAYEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_Ii_IbYAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ii_IboAYEeycjqFks8KX-A">
+        <modelElement href="timerBehaviorSimulation.uml#_Hxv4pYAYEeycjqFks8KX-A"/>
+        <type xmi:id="_Ii_Ib4AYEeycjqFks8KX-A" name="PeriodicTimer">
+          <modelElement href="timerBehaviorSimulation.uml#_HxuqgoAYEeycjqFks8KX-A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Ii_IcIAYEeycjqFks8KX-A" name="period">
+        <modelElement href="timerBehaviorSimulation.uml#_Hxv4oYAYEeycjqFks8KX-A"/>
+        <cardinality xmi:id="_Ii_IcYAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+        <type xmi:id="_Ii_IcoAYEeycjqFks8KX-A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Ii_Ic4AYEeycjqFks8KX-A" name="at">
+        <modelElement href="timerBehaviorSimulation.uml#_Hxv4ooAYEeycjqFks8KX-A"/>
+        <cardinality xmi:id="_Ii_IdIAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+        <type xmi:id="_Ii_IdYAYEeycjqFks8KX-A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Ii_IdoAYEeycjqFks8KX-A" name="next">
+      <modelElement href="timerBehaviorSimulation.uml#_Hxv4poAYEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_Ii_Id4AYEeycjqFks8KX-A" name="LegacyStyledElement">
+        <modelElement href="timerBehaviorSimulation.uml#_HxwfsYAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Ii_IeIAYEeycjqFks8KX-A" name="Annotations">
+        <modelElement href="timerBehaviorSimulation.uml#_HxwfsoAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_Ii_IeYAYEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_Ii_IeoAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ii_Ie4AYEeycjqFks8KX-A">
+        <modelElement href="timerBehaviorSimulation.uml#_HxwfsIAYEeycjqFks8KX-A"/>
+        <type xmi:id="_Ii_IfIAYEeycjqFks8KX-A" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Ii_IfYAYEeycjqFks8KX-A" name="hasNext">
+      <modelElement href="timerBehaviorSimulation.uml#_HxwftIAYEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_Ii_IfoAYEeycjqFks8KX-A" name="LegacyStyledElement">
+        <modelElement href="timerBehaviorSimulation.uml#_HxxGwIAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Ii_If4AYEeycjqFks8KX-A" name="Annotations">
+        <modelElement href="timerBehaviorSimulation.uml#_HxxGwYAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_Ii_IgIAYEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_Ii_IgYAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ii_IgoAYEeycjqFks8KX-A">
+        <modelElement href="timerBehaviorSimulation.uml#_HxwftYAYEeycjqFks8KX-A"/>
+        <type xmi:id="_Ii_Ig4AYEeycjqFks8KX-A" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Ii_IhIAYEeycjqFks8KX-A" name="PeriodicTimer">
+      <modelElement href="timerBehaviorSimulation.uml#_HySEIYAYEeycjqFks8KX-A"/>
+      <keywords xmi:id="_Ii_IhYAYEeycjqFks8KX-A" keyword="create"/>
+      <stereotypes xmi:id="_Ii_IhoAYEeycjqFks8KX-A" name="LegacyStyledElement">
+        <modelElement href="timerBehaviorSimulation.uml#_HySEJoAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Ii_Ih4AYEeycjqFks8KX-A" name="Annotations">
+        <modelElement href="timerBehaviorSimulation.uml#_HySrMIAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_Ii_IiIAYEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_Ii_IiYAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ii_IioAYEeycjqFks8KX-A">
+        <modelElement href="timerBehaviorSimulation.uml#_HySEJ4AYEeycjqFks8KX-A"/>
+        <type xmi:id="_Ii_Ii4AYEeycjqFks8KX-A" name="PeriodicTimer">
+          <modelElement href="timerBehaviorSimulation.uml#_HxuqgoAYEeycjqFks8KX-A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Ii_IjIAYEeycjqFks8KX-A" name="at">
+        <modelElement href="timerBehaviorSimulation.uml#_HySEIoAYEeycjqFks8KX-A"/>
+        <cardinality xmi:id="_Ii_IjYAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+        <type xmi:id="_Ii_IjoAYEeycjqFks8KX-A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Ii_Ij4AYEeycjqFks8KX-A" name="moreOrLess">
+        <modelElement href="timerBehaviorSimulation.uml#_HySEI4AYEeycjqFks8KX-A"/>
+        <cardinality xmi:id="_Ii_IkIAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+        <type xmi:id="_Ii_IkYAYEeycjqFks8KX-A" name="RandomTimer">
+          <modelElement href="timerBehaviorSimulation.uml#_Hxxt0IAYEeycjqFks8KX-A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Ii_IkoAYEeycjqFks8KX-A" name="PeriodicTimer">
+      <modelElement href="timerBehaviorSimulation.uml#_HySrMoAYEeycjqFks8KX-A"/>
+      <keywords xmi:id="_Ii_Ik4AYEeycjqFks8KX-A" keyword="create"/>
+      <stereotypes xmi:id="_Ii_IlIAYEeycjqFks8KX-A" name="LegacyStyledElement">
+        <modelElement href="timerBehaviorSimulation.uml#_HySrOIAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Ii_IlYAYEeycjqFks8KX-A" name="Annotations">
+        <modelElement href="timerBehaviorSimulation.uml#_HyTSQIAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_Ii_IloAYEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_Ii_Il4AYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ii_ImIAYEeycjqFks8KX-A">
+        <modelElement href="timerBehaviorSimulation.uml#_HySrOYAYEeycjqFks8KX-A"/>
+        <type xmi:id="_Ii_ImYAYEeycjqFks8KX-A" name="PeriodicTimer">
+          <modelElement href="timerBehaviorSimulation.uml#_HxuqgoAYEeycjqFks8KX-A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Ii_ImoAYEeycjqFks8KX-A" name="period">
+        <modelElement href="timerBehaviorSimulation.uml#_HySrM4AYEeycjqFks8KX-A"/>
+        <cardinality xmi:id="_Ii_Im4AYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+        <type xmi:id="_Ii_InIAYEeycjqFks8KX-A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Ii_InYAYEeycjqFks8KX-A" name="at">
+        <modelElement href="timerBehaviorSimulation.uml#_HySrNIAYEeycjqFks8KX-A"/>
+        <cardinality xmi:id="_Ii_InoAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+        <type xmi:id="_Ii_In4AYEeycjqFks8KX-A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Ii_IoIAYEeycjqFks8KX-A" name="moreOrLess">
+        <modelElement href="timerBehaviorSimulation.uml#_HySrNYAYEeycjqFks8KX-A"/>
+        <cardinality xmi:id="_Ii_IoYAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+        <type xmi:id="_Ii_IooAYEeycjqFks8KX-A" name="RandomTimer">
+          <modelElement href="timerBehaviorSimulation.uml#_Hxxt0IAYEeycjqFks8KX-A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_IjCysIAYEeycjqFks8KX-A" comments="_ZMbxELwUEey47fel29Tb-A" targetConnectionVisual="_ZMrosLwUEey47fel29Tb-A" name="RandomTimer" associationsIn="_Ii-hQIAYEeycjqFks8KX-A" associationsOut="_IjCLoIAYEeycjqFks8KX-A" generalizations="_IjA9gIAYEeycjqFks8KX-A">
+    <modelElement href="timerBehaviorSimulation.uml#_Hxxt0IAYEeycjqFks8KX-A"/>
+    <visualProperties xmi:id="_IjCysYAYEeycjqFks8KX-A" position="450.0,184.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_Z-s7gLwUEey47fel29Tb-A" name="Patch">
+      <modelElement href="timerBehaviorSimulation.uml#_Z-rtYLwUEey47fel29Tb-A"/>
+    </stereotypes>
+    <visibility xmi:id="_IjCysoAYEeycjqFks8KX-A" label="+"/>
+    <attributes xmi:id="_IjCys4AYEeycjqFks8KX-A" defaultValue="new Random()" name="r">
+      <modelElement href="timerBehaviorSimulation.uml#_HydDQ4AYEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_WLtLALwUEey47fel29Tb-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WLtLAbwUEey47fel29Tb-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WLxccbwUEey47fel29Tb-A" name="LegacyStyledElement"/>
+      <visibility xmi:id="_IjCytYAYEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_IjCytoAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <type xmi:id="_IjCyt4AYEeycjqFks8KX-A" name="Random">
+        <modelElement href="timerBehaviorSimulation.uml#_HyTSQoAYEeycjqFks8KX-A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IjCyuIAYEeycjqFks8KX-A" name="distribution">
+      <modelElement href="timerBehaviorSimulation.uml#_HydqUYAYEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_IjCyuYAYEeycjqFks8KX-A" name="LegacyStyledElement">
+        <modelElement href="timerBehaviorSimulation.uml#_HydqUoAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_IjCyuoAYEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_IjCyu4AYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <type xmi:id="_IjCyvIAYEeycjqFks8KX-A" name="randomDistribution">
+        <modelElement href="timerBehaviorSimulation.uml#_HxyU4IAYEeycjqFks8KX-A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IjCyvYAYEeycjqFks8KX-A" name="rate">
+      <modelElement href="timerBehaviorSimulation.uml#_HyeRYIAYEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_IjCyvoAYEeycjqFks8KX-A" name="LegacyStyledElement">
+        <modelElement href="timerBehaviorSimulation.uml#_HyeRYYAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_IjCyv4AYEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_IjCywIAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <type xmi:id="_IjCywYAYEeycjqFks8KX-A" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IjCywoAYEeycjqFks8KX-A" name="mean">
+      <modelElement href="timerBehaviorSimulation.uml#_HyeRYoAYEeycjqFks8KX-A"/>
+      <visibility xmi:id="_IjCyw4AYEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_IjCyxIAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <type xmi:id="_IjCyxYAYEeycjqFks8KX-A" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IjCyxoAYEeycjqFks8KX-A" name="lolim">
+      <modelElement href="timerBehaviorSimulation.uml#_HyeRY4AYEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_IjCyx4AYEeycjqFks8KX-A" name="LegacyStyledElement">
+        <modelElement href="timerBehaviorSimulation.uml#_HyeRZIAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_IjCyyIAYEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_IjCyyYAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <type xmi:id="_IjCyyoAYEeycjqFks8KX-A" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IjCyy4AYEeycjqFks8KX-A" name="hilim">
+      <modelElement href="timerBehaviorSimulation.uml#_HyeRZYAYEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_IjCyzIAYEeycjqFks8KX-A" name="LegacyStyledElement">
+        <modelElement href="timerBehaviorSimulation.uml#_Hye4cIAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_IjCyzYAYEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_IjCyzoAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <type xmi:id="_IjCyz4AYEeycjqFks8KX-A" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZMD9oLwUEey47fel29Tb-A" name="distributionParam">
+      <modelElement href="timerBehaviorSimulation.uml#_ZHOg8LwUEey47fel29Tb-A"/>
+      <stereotypes xmi:id="_ZMD9obwUEey47fel29Tb-A" name="LegacyStyledElement">
+        <modelElement href="timerBehaviorSimulation.uml#_ZHPIALwUEey47fel29Tb-A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ZMD9orwUEey47fel29Tb-A" name="MultiDeclaration">
+        <modelElement href="timerBehaviorSimulation.uml#_ZHSyYLwUEey47fel29Tb-A"/>
+      </stereotypes>
+      <visibility xmi:id="_ZMD9o7wUEey47fel29Tb-A" label="+"/>
+      <cardinality xmi:id="_ZMD9pLwUEey47fel29Tb-A" label="1" max="1" min="1"/>
+    </attributes>
+    <operations xmi:id="_IjCy1YAYEeycjqFks8KX-A" name="string2Distribution" staticOperation="true">
+      <modelElement href="timerBehaviorSimulation.uml#_Hxy78IAYEeycjqFks8KX-A"/>
+      <visibility xmi:id="_IjCy1oAYEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_IjCy14AYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IjCy2IAYEeycjqFks8KX-A">
+        <modelElement href="timerBehaviorSimulation.uml#_HyT5UIAYEeycjqFks8KX-A"/>
+        <type xmi:id="_IjCy2YAYEeycjqFks8KX-A" name="randomDistribution">
+          <modelElement href="timerBehaviorSimulation.uml#_HxyU4IAYEeycjqFks8KX-A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_IjCy2oAYEeycjqFks8KX-A" name="distributionName">
+        <modelElement href="timerBehaviorSimulation.uml#_Hxy78YAYEeycjqFks8KX-A"/>
+        <cardinality xmi:id="_IjCy24AYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+        <type xmi:id="_IjCy3IAYEeycjqFks8KX-A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IjCy3YAYEeycjqFks8KX-A" name="toString">
+      <modelElement href="timerBehaviorSimulation.uml#_HxzjAIAYEeycjqFks8KX-A"/>
+      <visibility xmi:id="_IjCy3oAYEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_IjCy34AYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IjCy4IAYEeycjqFks8KX-A">
+        <modelElement href="timerBehaviorSimulation.uml#_HxzjAYAYEeycjqFks8KX-A"/>
+        <type xmi:id="_IjCy4YAYEeycjqFks8KX-A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_IjCy4oAYEeycjqFks8KX-A" name="next">
+      <modelElement href="timerBehaviorSimulation.uml#_HxzjAoAYEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_IjCy44AYEeycjqFks8KX-A" name="LegacyStyledElement">
+        <modelElement href="timerBehaviorSimulation.uml#_HxzjBIAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_IjCy5IAYEeycjqFks8KX-A" name="Annotations">
+        <modelElement href="timerBehaviorSimulation.uml#_HxzjBYAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_IjCy5YAYEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_IjCy5oAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IjCy54AYEeycjqFks8KX-A">
+        <modelElement href="timerBehaviorSimulation.uml#_HxzjA4AYEeycjqFks8KX-A"/>
+        <type xmi:id="_IjCy6IAYEeycjqFks8KX-A" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_IjCy6YAYEeycjqFks8KX-A" comments="_ZNdEwLwUEey47fel29Tb-A" targetConnectionVisual="_ZNdEwbwUEey47fel29Tb-A" name="nextTimePosibilist">
+      <modelElement href="timerBehaviorSimulation.uml#_Hx0KEYAYEeycjqFks8KX-A"/>
+      <visibility xmi:id="_IjCy6oAYEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_IjCy64AYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IjCy7IAYEeycjqFks8KX-A">
+        <modelElement href="timerBehaviorSimulation.uml#_Hx0KEoAYEeycjqFks8KX-A"/>
+        <type xmi:id="_IjCy7YAYEeycjqFks8KX-A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_IjCy7oAYEeycjqFks8KX-A" comments="_ZOHMELwUEey47fel29Tb-A" targetConnectionVisual="_ZOHzILwUEey47fel29Tb-A" name="nextTimeExp">
+      <modelElement href="timerBehaviorSimulation.uml#_Hx0KE4AYEeycjqFks8KX-A"/>
+      <visibility xmi:id="_IjCy74AYEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_IjCy8IAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IjCy8YAYEeycjqFks8KX-A">
+        <modelElement href="timerBehaviorSimulation.uml#_Hx0KFIAYEeycjqFks8KX-A"/>
+        <type xmi:id="_IjCy8oAYEeycjqFks8KX-A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_IjCy84AYEeycjqFks8KX-A" comments="_ZO2L4LwUEey47fel29Tb-A" targetConnectionVisual="_ZO2y8LwUEey47fel29Tb-A" name="nextTimePoisson">
+      <modelElement href="timerBehaviorSimulation.uml#_Hx0KFYAYEeycjqFks8KX-A"/>
+      <visibility xmi:id="_IjCy9IAYEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_IjCy9YAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IjCy9oAYEeycjqFks8KX-A">
+        <modelElement href="timerBehaviorSimulation.uml#_Hx0KFoAYEeycjqFks8KX-A"/>
+        <type xmi:id="_IjCy94AYEeycjqFks8KX-A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_IjCy-IAYEeycjqFks8KX-A" name="nextTimeGaussian">
+      <modelElement href="timerBehaviorSimulation.uml#_Hx0KF4AYEeycjqFks8KX-A"/>
+      <visibility xmi:id="_IjCy-YAYEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_IjCy-oAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IjCy-4AYEeycjqFks8KX-A">
+        <modelElement href="timerBehaviorSimulation.uml#_Hx0KGIAYEeycjqFks8KX-A"/>
+        <type xmi:id="_IjCy_IAYEeycjqFks8KX-A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_IjCy_YAYEeycjqFks8KX-A" name="hasNext">
+      <modelElement href="timerBehaviorSimulation.uml#_Hx0KGYAYEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_IjCy_oAYEeycjqFks8KX-A" name="LegacyStyledElement">
+        <modelElement href="timerBehaviorSimulation.uml#_Hx0xIIAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_IjCy_4AYEeycjqFks8KX-A" name="Annotations">
+        <modelElement href="timerBehaviorSimulation.uml#_Hx0xIYAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_IjCzAIAYEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_IjCzAYAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IjCzAoAYEeycjqFks8KX-A">
+        <modelElement href="timerBehaviorSimulation.uml#_Hx0KGoAYEeycjqFks8KX-A"/>
+        <type xmi:id="_IjCzA4AYEeycjqFks8KX-A" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_IjCzBIAYEeycjqFks8KX-A" name="distribution2String" staticOperation="true">
+      <modelElement href="timerBehaviorSimulation.uml#_HyT5UYAYEeycjqFks8KX-A"/>
+      <visibility xmi:id="_IjCzBYAYEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_IjCzBoAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IjCzB4AYEeycjqFks8KX-A">
+        <modelElement href="timerBehaviorSimulation.uml#_HyT5U4AYEeycjqFks8KX-A"/>
+        <type xmi:id="_IjCzCIAYEeycjqFks8KX-A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_IjCzCYAYEeycjqFks8KX-A" name="distribution">
+        <modelElement href="timerBehaviorSimulation.uml#_HyT5UoAYEeycjqFks8KX-A"/>
+        <cardinality xmi:id="_IjCzCoAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+        <type xmi:id="_IjCzC4AYEeycjqFks8KX-A" name="randomDistribution">
+          <modelElement href="timerBehaviorSimulation.uml#_HxyU4IAYEeycjqFks8KX-A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IjCzDIAYEeycjqFks8KX-A" comments="_ZPpdILwUEey47fel29Tb-A" targetConnectionVisual="_ZPzOILwUEey47fel29Tb-A" name="RandomTimer">
+      <modelElement href="timerBehaviorSimulation.uml#_HyT5VIAYEeycjqFks8KX-A"/>
+      <keywords xmi:id="_IjCzDYAYEeycjqFks8KX-A" keyword="create"/>
+      <visibility xmi:id="_IjCzDoAYEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_IjCzD4AYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IjCzEIAYEeycjqFks8KX-A">
+        <modelElement href="timerBehaviorSimulation.uml#_HyT5WYAYEeycjqFks8KX-A"/>
+        <type xmi:id="_IjCzEYAYEeycjqFks8KX-A" name="RandomTimer">
+          <modelElement href="timerBehaviorSimulation.uml#_Hxxt0IAYEeycjqFks8KX-A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_IjCzEoAYEeycjqFks8KX-A" name="distribution">
+        <modelElement href="timerBehaviorSimulation.uml#_HyT5VYAYEeycjqFks8KX-A"/>
+        <cardinality xmi:id="_IjCzE4AYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+        <type xmi:id="_IjCzFIAYEeycjqFks8KX-A" name="randomDistribution">
+          <modelElement href="timerBehaviorSimulation.uml#_HxyU4IAYEeycjqFks8KX-A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IjCzFYAYEeycjqFks8KX-A" name="param">
+        <modelElement href="timerBehaviorSimulation.uml#_HyT5VoAYEeycjqFks8KX-A"/>
+        <cardinality xmi:id="_IjCzFoAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+        <type xmi:id="_IjCzF4AYEeycjqFks8KX-A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IjCzGIAYEeycjqFks8KX-A" comments="_ZQrX4LwUEey47fel29Tb-A" targetConnectionVisual="_ZQ1I4LwUEey47fel29Tb-A" name="RandomTimer">
+      <modelElement href="timerBehaviorSimulation.uml#_HyUgYIAYEeycjqFks8KX-A"/>
+      <keywords xmi:id="_IjCzGYAYEeycjqFks8KX-A" keyword="create"/>
+      <visibility xmi:id="_IjCzGoAYEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_IjCzG4AYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IjCzHIAYEeycjqFks8KX-A">
+        <modelElement href="timerBehaviorSimulation.uml#_HyUgZoAYEeycjqFks8KX-A"/>
+        <type xmi:id="_IjCzHYAYEeycjqFks8KX-A" name="RandomTimer">
+          <modelElement href="timerBehaviorSimulation.uml#_Hxxt0IAYEeycjqFks8KX-A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_IjCzHoAYEeycjqFks8KX-A" name="distribution">
+        <modelElement href="timerBehaviorSimulation.uml#_HyUgYYAYEeycjqFks8KX-A"/>
+        <cardinality xmi:id="_IjCzH4AYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+        <type xmi:id="_IjCzIIAYEeycjqFks8KX-A" name="randomDistribution">
+          <modelElement href="timerBehaviorSimulation.uml#_HxyU4IAYEeycjqFks8KX-A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IjCzIYAYEeycjqFks8KX-A" name="lolim">
+        <modelElement href="timerBehaviorSimulation.uml#_HyUgYoAYEeycjqFks8KX-A"/>
+        <cardinality xmi:id="_IjCzIoAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+        <type xmi:id="_IjCzI4AYEeycjqFks8KX-A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IjCzJIAYEeycjqFks8KX-A" name="hilim">
+        <modelElement href="timerBehaviorSimulation.uml#_HyUgY4AYEeycjqFks8KX-A"/>
+        <cardinality xmi:id="_IjCzJYAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+        <type xmi:id="_IjCzJoAYEeycjqFks8KX-A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_IjFO8IAYEeycjqFks8KX-A" name="randomDistribution">
+    <modelElement href="timerBehaviorSimulation.uml#_HxyU4IAYEeycjqFks8KX-A"/>
+    <visualProperties xmi:id="_IjFO8YAYEeycjqFks8KX-A" position="7.0,953.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_IjFO8oAYEeycjqFks8KX-A" keyword="static"/>
+    <visibility xmi:id="_IjFO84AYEeycjqFks8KX-A" label="+"/>
+    <literals xmi:id="_IjFO9IAYEeycjqFks8KX-A" name="POISSON">
+      <modelElement href="timerBehaviorSimulation.uml#_HxyU44AYEeycjqFks8KX-A"/>
+    </literals>
+    <literals xmi:id="_IjFO9YAYEeycjqFks8KX-A" name="EXP">
+      <modelElement href="timerBehaviorSimulation.uml#_HxyU5IAYEeycjqFks8KX-A"/>
+    </literals>
+    <literals xmi:id="_IjFO9oAYEeycjqFks8KX-A" name="POSIBILIST">
+      <modelElement href="timerBehaviorSimulation.uml#_HxyU5YAYEeycjqFks8KX-A"/>
+    </literals>
+    <literals xmi:id="_IjFO94AYEeycjqFks8KX-A" name="GAUSSIAN">
+      <modelElement href="timerBehaviorSimulation.uml#_HxyU5oAYEeycjqFks8KX-A"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_IjGdEIAYEeycjqFks8KX-A" name="Exception">
+    <modelElement href="timerBehaviorSimulation.uml#_HyYx0YAYEeycjqFks8KX-A"/>
+    <visualProperties xmi:id="_IjGdEYAYEeycjqFks8KX-A" position="42.0,1189.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_IjHEIIAYEeycjqFks8KX-A" name="Reference">
+      <modelElement href="timerBehaviorSimulation.uml#_HyYx0oAYEeycjqFks8KX-A"/>
+    </stereotypes>
+    <visibility xmi:id="_IjHEIYAYEeycjqFks8KX-A" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_IjI5VYAYEeycjqFks8KX-A" name="TimeBoundedTimer" associationsOut="_IjHrMIAYEeycjqFks8KX-A" generalizations="_IjHrMYAYEeycjqFks8KX-A">
+    <modelElement href="timerBehaviorSimulation.uml#_Hx1_QIAYEeycjqFks8KX-A"/>
+    <visualProperties xmi:id="_IjJgYIAYEeycjqFks8KX-A" position="-1676.0,-85.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_IjJgYYAYEeycjqFks8KX-A" label="+"/>
+    <attributes xmi:id="_IjJgYoAYEeycjqFks8KX-A" name="timer2bound">
+      <modelElement href="timerBehaviorSimulation.uml#_HyffgIAYEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_WLtyELwUEey47fel29Tb-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WLuZILwUEey47fel29Tb-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WLyDgLwUEey47fel29Tb-A" name="LegacyStyledElement"/>
+      <visibility xmi:id="_IjJgZIAYEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_IjJgZYAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <type xmi:id="_IjJgZoAYEeycjqFks8KX-A" name="Timer">
+        <modelElement href="timerBehaviorSimulation.uml#_Hx30cIAYEeycjqFks8KX-A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IjJgZ4AYEeycjqFks8KX-A" name="startTime">
+      <modelElement href="timerBehaviorSimulation.uml#_HyffgoAYEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_IjJgaIAYEeycjqFks8KX-A" name="LegacyStyledElement">
+        <modelElement href="timerBehaviorSimulation.uml#_Hyffg4AYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_IjJgaYAYEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_IjJgaoAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <type xmi:id="_IjJga4AYEeycjqFks8KX-A" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IjJgbIAYEeycjqFks8KX-A" name="stopTime">
+      <modelElement href="timerBehaviorSimulation.uml#_HygGkIAYEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_IjJgbYAYEeycjqFks8KX-A" name="LegacyStyledElement">
+        <modelElement href="timerBehaviorSimulation.uml#_HygGkYAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_IjJgboAYEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_IjJgb4AYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <type xmi:id="_IjJgcIAYEeycjqFks8KX-A" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IjJgcYAYEeycjqFks8KX-A" defaultValue="0" name="next">
+      <modelElement href="timerBehaviorSimulation.uml#_HygGkoAYEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_IjJgcoAYEeycjqFks8KX-A" name="LegacyStyledElement">
+        <modelElement href="timerBehaviorSimulation.uml#_HygGlIAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_IjJgc4AYEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_IjJgdIAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <type xmi:id="_IjJgdYAYEeycjqFks8KX-A" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IjJgdoAYEeycjqFks8KX-A" defaultValue="0" name="time">
+      <modelElement href="timerBehaviorSimulation.uml#_HygGlYAYEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_IjJgd4AYEeycjqFks8KX-A" name="LegacyStyledElement">
+        <modelElement href="timerBehaviorSimulation.uml#_HygtoIAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_IjJgeIAYEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_IjJgeYAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <type xmi:id="_IjJgeoAYEeycjqFks8KX-A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IjJge4AYEeycjqFks8KX-A" name="hasNext">
+      <modelElement href="timerBehaviorSimulation.uml#_HygtoYAYEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_IjJgfIAYEeycjqFks8KX-A" name="LegacyStyledElement">
+        <modelElement href="timerBehaviorSimulation.uml#_HygtooAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_IjJgfYAYEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_IjJgfoAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <type xmi:id="_IjJgf4AYEeycjqFks8KX-A" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_IjJggIAYEeycjqFks8KX-A" name="init">
+      <modelElement href="timerBehaviorSimulation.uml#_Hx2mUIAYEeycjqFks8KX-A"/>
+      <visibility xmi:id="_IjJggYAYEeycjqFks8KX-A" label="-"/>
+      <cardinality xmi:id="_IjJggoAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_IjJgg4AYEeycjqFks8KX-A" name="hasNext">
+      <modelElement href="timerBehaviorSimulation.uml#_Hx2mUYAYEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_IjJghIAYEeycjqFks8KX-A" name="LegacyStyledElement">
+        <modelElement href="timerBehaviorSimulation.uml#_Hx2mU4AYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_IjJghYAYEeycjqFks8KX-A" name="Annotations">
+        <modelElement href="timerBehaviorSimulation.uml#_Hx2mVIAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_IjJghoAYEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_IjJgh4AYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IjJgiIAYEeycjqFks8KX-A">
+        <modelElement href="timerBehaviorSimulation.uml#_Hx2mUoAYEeycjqFks8KX-A"/>
+        <type xmi:id="_IjJgiYAYEeycjqFks8KX-A" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_IjJgioAYEeycjqFks8KX-A" name="next">
+      <modelElement href="timerBehaviorSimulation.uml#_Hx2mVoAYEeycjqFks8KX-A"/>
+      <stereotypes xmi:id="_IjJgi4AYEeycjqFks8KX-A" name="LegacyStyledElement">
+        <modelElement href="timerBehaviorSimulation.uml#_Hx2mWIAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_IjJgjIAYEeycjqFks8KX-A" name="Annotations">
+        <modelElement href="timerBehaviorSimulation.uml#_Hx3NYIAYEeycjqFks8KX-A"/>
+      </stereotypes>
+      <visibility xmi:id="_IjJgjYAYEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_IjJgjoAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IjJgj4AYEeycjqFks8KX-A">
+        <modelElement href="timerBehaviorSimulation.uml#_Hx2mV4AYEeycjqFks8KX-A"/>
+        <type xmi:id="_IjJgkIAYEeycjqFks8KX-A" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_IjJgkYAYEeycjqFks8KX-A" name="TimeBoundedTimer">
+      <modelElement href="timerBehaviorSimulation.uml#_HyVugIAYEeycjqFks8KX-A"/>
+      <keywords xmi:id="_IjJgkoAYEeycjqFks8KX-A" keyword="create"/>
+      <visibility xmi:id="_IjJgk4AYEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_IjJglIAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IjJglYAYEeycjqFks8KX-A">
+        <modelElement href="timerBehaviorSimulation.uml#_HyVuhoAYEeycjqFks8KX-A"/>
+        <type xmi:id="_IjJgloAYEeycjqFks8KX-A" name="TimeBoundedTimer">
+          <modelElement href="timerBehaviorSimulation.uml#_Hx1_QIAYEeycjqFks8KX-A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_IjJgl4AYEeycjqFks8KX-A" name="timer2bound">
+        <modelElement href="timerBehaviorSimulation.uml#_HyVugYAYEeycjqFks8KX-A"/>
+        <cardinality xmi:id="_IjJgmIAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+        <type xmi:id="_IjJgmYAYEeycjqFks8KX-A" name="Timer">
+          <modelElement href="timerBehaviorSimulation.uml#_Hx30cIAYEeycjqFks8KX-A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IjJgmoAYEeycjqFks8KX-A" name="startTime">
+        <modelElement href="timerBehaviorSimulation.uml#_HyVugoAYEeycjqFks8KX-A"/>
+        <cardinality xmi:id="_IjJgm4AYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+        <type xmi:id="_IjJgnIAYEeycjqFks8KX-A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IjJgnYAYEeycjqFks8KX-A" name="stopTime">
+        <modelElement href="timerBehaviorSimulation.uml#_HyVug4AYEeycjqFks8KX-A"/>
+        <cardinality xmi:id="_IjJgnoAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+        <type xmi:id="_IjJgn4AYEeycjqFks8KX-A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IjJgoIAYEeycjqFks8KX-A" name="TimeBoundedTimer">
+      <modelElement href="timerBehaviorSimulation.uml#_HyVuh4AYEeycjqFks8KX-A"/>
+      <keywords xmi:id="_IjJgoYAYEeycjqFks8KX-A" keyword="create"/>
+      <visibility xmi:id="_IjJgooAYEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_IjJgo4AYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IjJgpIAYEeycjqFks8KX-A">
+        <modelElement href="timerBehaviorSimulation.uml#_HyVujIAYEeycjqFks8KX-A"/>
+        <type xmi:id="_IjJgpYAYEeycjqFks8KX-A" name="TimeBoundedTimer">
+          <modelElement href="timerBehaviorSimulation.uml#_Hx1_QIAYEeycjqFks8KX-A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_IjJgpoAYEeycjqFks8KX-A" name="timer2bound">
+        <modelElement href="timerBehaviorSimulation.uml#_HyVuiIAYEeycjqFks8KX-A"/>
+        <cardinality xmi:id="_IjJgp4AYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+        <type xmi:id="_IjJgqIAYEeycjqFks8KX-A" name="Timer">
+          <modelElement href="timerBehaviorSimulation.uml#_Hx30cIAYEeycjqFks8KX-A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IjJgqYAYEeycjqFks8KX-A" name="startTime">
+        <modelElement href="timerBehaviorSimulation.uml#_HyVuiYAYEeycjqFks8KX-A"/>
+        <cardinality xmi:id="_IjJgqoAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+        <type xmi:id="_IjJgq4AYEeycjqFks8KX-A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_IjLVkIAYEeycjqFks8KX-A" name="Timer" associationsIn="_Ii5owoAYEeycjqFks8KX-A _Ii5ow4AYEeycjqFks8KX-A _IjHrMIAYEeycjqFks8KX-A" generalizations="_Ii5oxIAYEeycjqFks8KX-A" subclassedBy="_Ii5owYAYEeycjqFks8KX-A _Ii5owIAYEeycjqFks8KX-A _Ii7d8IAYEeycjqFks8KX-A _Ii9TIIAYEeycjqFks8KX-A _IjA9gIAYEeycjqFks8KX-A _IjHrMYAYEeycjqFks8KX-A">
+    <modelElement href="timerBehaviorSimulation.uml#_Hx30cIAYEeycjqFks8KX-A"/>
+    <visualProperties xmi:id="_IjLVkYAYEeycjqFks8KX-A" position="-434.0,-225.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_IjLVkoAYEeycjqFks8KX-A" label="+"/>
+    <operations xmi:id="_IjLVk4AYEeycjqFks8KX-A" comments="_Ii6P0IAYEeycjqFks8KX-A" targetConnectionVisual="_Ii6P0YAYEeycjqFks8KX-A" name="next">
+      <modelElement href="timerBehaviorSimulation.uml#_Hx4bgIAYEeycjqFks8KX-A"/>
+      <visibility xmi:id="_IjLVlIAYEeycjqFks8KX-A" label="+"/>
+      <cardinality xmi:id="_IjLVlYAYEeycjqFks8KX-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IjLVloAYEeycjqFks8KX-A">
+        <modelElement href="timerBehaviorSimulation.uml#_Hx4bgYAYEeycjqFks8KX-A"/>
+        <type xmi:id="_IjLVl4AYEeycjqFks8KX-A" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ZMbxELwUEey47fel29Tb-A" sourceConnectionVisual="_ZMrosLwUEey47fel29Tb-A" text="@author Flavien Vernier&#xA; *" item="_IjCysIAYEeycjqFks8KX-A">
+    <modelElement href="timerBehaviorSimulation.uml#_ZHQ9MLwUEey47fel29Tb-A"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ZNdEwLwUEey47fel29Tb-A" sourceConnectionVisual="_ZNdEwbwUEey47fel29Tb-A" text="Give good mean&#xA;&#x9; * Give wrong variance" item="_IjCy6YAYEeycjqFks8KX-A">
+    <modelElement href="timerBehaviorSimulation.uml#_ZHRkQbwUEey47fel29Tb-A"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ZOHMELwUEey47fel29Tb-A" sourceConnectionVisual="_ZOHzILwUEey47fel29Tb-A" text="Give good mean&#xA;&#x9; * Give wrong variance" item="_IjCy7oAYEeycjqFks8KX-A">
+    <modelElement href="timerBehaviorSimulation.uml#_ZHRkQrwUEey47fel29Tb-A"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ZO2L4LwUEey47fel29Tb-A" sourceConnectionVisual="_ZO2y8LwUEey47fel29Tb-A" text="Give good mean&#xA;&#x9; * Give good variance" item="_IjCy84AYEeycjqFks8KX-A">
+    <modelElement href="timerBehaviorSimulation.uml#_ZHRkQ7wUEey47fel29Tb-A"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ZPpdILwUEey47fel29Tb-A" sourceConnectionVisual="_ZPzOILwUEey47fel29Tb-A" text="@param param constraint &#xA;&#x9; * @throws Exception" item="_IjCzDIAYEeycjqFks8KX-A">
+    <modelElement href="timerBehaviorSimulation.uml#_ZHQ9MbwUEey47fel29Tb-A"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ZQrX4LwUEey47fel29Tb-A" sourceConnectionVisual="_ZQ1I4LwUEey47fel29Tb-A" text="@param min/max constraint&#xA;&#x9; * @throws Exception" item="_IjCzGIAYEeycjqFks8KX-A">
+    <modelElement href="timerBehaviorSimulation.uml#_ZHRkQLwUEey47fel29Tb-A"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
